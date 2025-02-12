@@ -1,0 +1,6 @@
+pytesseract
+pdf2image
+azure-ai-textanalytics
+azure-core
+pymupdf
+python-dotenv

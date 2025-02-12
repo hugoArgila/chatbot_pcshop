@@ -1,0 +1,1206 @@
+ARTI SOFTWARE TEC. INF. S.L. 
+ANTONIO PEREZ 7 4º-4 
+28002 MADRID (28) 
+Tel: +34656359467 
+Fax:  
+e-mail: jaromero@artisoft.es
+Dell XPS 14 9440U7 155H32GB1TB SSD14.5" OLED Touch 
+Código: DTPF3
+2.628,52 €
+DELL XPS 14 - Potencia y Diseño Premium para Profesionales Creativos
+ 
+Procesador y Rendimiento:
+Intel Core Ultra 7 155H (24MB Cache) de 13.ª generación, diseñado para ofrecer un 
+rendimiento excepcional en multitarea y aplicaciones intensivas.
+○
+Rendimiento continuado de 47W para tareas exigentes, ideal para la creación de contenido, 
+edición de vídeo y diseño 3D.
+○
+Hasta 32 GB LPDDR5x-SDRAM para una multitarea rápida y fluida, hasta un 55% más rápida 
+que generaciones anteriores.
+○
+1000 GB SSD para almacenamiento rápido y amplio, con acceso instantáneo a archivos y 
+programas.
+○
+•
+Gráficos:
+Intel Arc Graphics para tareas de diseño gráfico y multimedia de alto rendimiento.
+○
+NVIDIA GeForce RTX 4050 (6GB GDDR6) para rendimiento gráfico avanzado, ideal para 
+videojuegos, renderizado 3D y edición profesional.
+○
+•
+Pantalla:
+Pantalla táctil de 14,5” 3.2K (3200 x 2000) AMOLED con colores vibrantes y detalles nítidos, 
+ideal para profesionales creativos.
+○
+Dolby Vision para colores brillantes y negros profundos, mejorando la calidad visual.
+○
+Frecuencia de actualización de 120 Hz para una experiencia fluida y mejor rendimiento de la 
+batería al ver contenido estático.
+○
+Tecnología Eyesafe® para reducir la luz azul y proteger los ojos sin afectar la calidad de los 
+colores.
+○
+•
+Audio y Cámara:
+Dolby Atmos y Waves MaxxAudio con cuatro altavoces de 8 W, configurados por Jack Joseph 
+Puig (ganador de múltiples premios Grammy), para una experiencia de sonido envolvente.
+○
+Cámara web FHD 1080p de 2MP con IA para una excelente calidad de videollamadas, 
+reducción de ruido y mejora de imágenes en condiciones de baja luz.
+○
+•
+Diseño y Construcción:
+Aluminio maquinado (CNC) y Cristal Gorilla® Glass 3 para un diseño ligero, robusto y elegante.
+○
+Dimensiones compactas de solo 18 mm de grosor y peso de 1,68 kg, perfecto para la 
+movilidad.
+○
+Disponible en Platinum y Graphite, con acabados tono a tono.
+○
+•
+Batería y Carga:
+Batería de larga duración, optimizada con ExpressCharge para una carga rápida y eficiente.
+○
+Tecnología de optimización de batería con ajustes inteligentes que extienden el tiempo de 
+uso.
+○
+•
+Sostenibilidad y Materiales:
+Fabricado con un 25% de materiales reciclados y con una reducción del 89% en huella de 
+carbono de los materiales.
+○
+Embalaje reciclable 100% y productos registrados con Energy Star 8.0 y EPEAT Gold.
+○
+•
+Funciones Adicionales:
+•
+
+Teclado de alta eficiencia con teclas grandes y profundas para una escritura cómoda.
+○
+Panel táctil háptico de cristal optimizado, para una experiencia de navegación precisa.
+○
+Tecla de Windows Copilot para acceder a tu asistente de IA personal, optimizando el 
+rendimiento del dispositivo.
+○
+MyDell para personalizar y optimizar tu dispositivo mediante IA, ajustando la configuración de 
+rendimiento, audio, vídeo y batería.
+○
+Conexión sin esfuerzo con otros dispositivos mediante Dell Pair y Bluetooth.
+○
+Asistencia personalizada con Dell ProSupport, ofreciendo solución de problemas y cobertura 
+de reparaciones basadas en IA.
+○
+Windows 11 Pro:
+Mejora de productividad con nuevas herramientas de multitarea para organizar mejor las 
+ventanas y cambiar entre tareas de forma eficiente.
+○
+Herramientas de colaboración avanzada con Teams integrado, ideal para trabajo remoto y 
+videoconferencias.
+○
+*Algunos datos de esta descripción pueden ser opcionales y no estar presentes en este código de 
+producto específico. Consulte la ficha técnica
+ 
+•
+ 
+ 
+ 
+Garantía :  
+12meses
+DISCO DURO
+Disco duro
+1.000
+Tipo Soporte 1
+SSD
+Interfaz Soporte 1
+NVMe
+Número Soportes
+1
+GRÁFICA
+Gráfica integrada
+Si
+Fabricante de la 
+gráfica
+Nvidia
+Modelo gráfica
+GeForce RTX 
+4050
+ 
+PROCESADOR
+Familia Procesador
+Intel Core 
+Ultra 7
+Modelo de procesador
+155H
+Fabricante procesador
+Intel
+Generación del 
+procesador
+Intel Core 
+Ultra (Series 
+1)
+Número de núcleos de 
+procesador
+16
+Frecuencia del 
+procesador turbo
+4,8
+ 
+PANTALLA
+Tamaño pantalla
+14,5
+Pantalla táctil
+Si
+Tipo de pantalla
+OLED
+Resolución (Estándar)
+3200 x 2000
+Luminosidad
+400
+Contraste
+1.000.000
+Tipologia HD
+3.2K
+Retroiluminación
+Yes
+Tiempo máximo de 
+refresco
+120
+Espacio de color RGB
+DCI-P3
+ 
+DIMENSIONES & PESO
+Peso sin embalaje
+1,74 kg
+Altura
+1,8 cm
+Ancho
+32
+Profundidad
+21,6 cm
+GENERAL
+Color
+Gris
+Trusted Platform 
+Module (TPM)
+Si
+Material Chasis
+Aluminio
+Detección huella 
+dactilar
+Si
+Potencia adaptador 
+AC
+100
+2 en 1 Detachable
+No
+Convertibili 2 in 1
+No
+Potencia de adaptador 
+AC
+100
+CONEXIONES
+Conexión a red móvil
+No
+N° total de puertos 
+USB
+0
+Puertos USB 2.0 High 
+Speed Type-A
+0
+Puertos USB 3.2 Gen 1 
+SuperSpeed (5 Gbps) 
+Type-A
+0
+Ethernet
+No presente
+Porte VGA
+No
+Bluetooth
+Si
+Puerto Thunderbolt
+Si
+Puerto HDMI
+Si
+HDMI micro
+No
+Display Port
+No
+Mini Display Port
+No
+Conexión para 
+Dockstation del 
+fabricante
+No
+Wireless (standard)
+Wifi 6E 
+(802.11ax)
+Tipo de puerto de 
+carga
+USB Type-C
+ 
+RAM
+RAM Instalada
+32
+RAM Máxima
+32
+Tecnología de la RAM
+LPDDR5X
+Tipo de RAM
+On-board
+UNIDADES ÓPTICAS
+Tipología unidad 
+instalada
+N
+ 
+TECLADO Y SISTEMA PARA APUNTAR
+Teclado numérico
+No
+Teclado 
+retroiluminado
+Si
+ 
+AUDIO
+Micrófono Integrado
+Si
+Altavoces (Fabricante)
+Waves
+ 
+BATERÍA
+Número celdas
+6
+Capacidad de batería
+69,5
+ 
+
+WEBCAM
+Webcam integrada
+Si
+Resolución Webcam
+1920 x 1080
+Infrarrojos
+Si
+Cámara frontal tipo 
+HD
+Full HD
+LECTORES MEMORY/SMART CARD
+Compact Flash (CF)
+No
+Memory stick (ms)
+No
+Memory Stick Duo 
+(MSD)
+No
+Memory Stick Pro (MS 
+Pro)
+No
+Memory Stick PRO 
+Duo (MSPD)
+No
+Memory Stick PRO-HG 
+Duo (MSPDX)
+No
+Memory stick micro 
+(mms)
+No
+Transflash / micro sd
+Si
+Multimedia Card 
+(MMC)
+No
+MMCplus
+No
+Multimedia Card 
+Reduced Size (RS-
+MMC)
+No
+Secure Digital card 
+(SD)
+No
+Secure digital mini 
+(msd)
+No
+ 
+SISTEMA OPERATIVO & SOFTWARE
+Version S.O.
+Windows 11 
+Pro
+Bit S.O.
+64
+ 
+TAMAÑO CON EMBALAJE
+Lato A
+42,4 cm
+Lato B
+11,1 cm
+Lato C
+34,1 cm
+Peso con embalaje
+3,62 kg
+CERTIFICACIÓNES
+Energy star
+Si
+Otras certificaciones
+Este portátil cuenta con la certificación ENERGY STAR 
+8.0® y cumple los criterios más elevados con el registro 
+EPEAT Gold. Y ahora con la designación Climate+. La 
+designación Climate+ denota que este portátil cumple 
+los procedimientos recomendados del sector para la 
+descarbonización.
+ 
+Opciones
+ACCESORIOS ORDENADORES PORTÁTILES DOCKING STATION Y EXPANSION PARA PORTÁTILES
+Código Artículo
+Características principales
+Stock
+Llegadas
+Código: DELLDA305Z
+Modelo: Adattatore multiporta 6-in-
+1 USB-C Dell, DA305
+Tipo conector externo: USB-C Tipología específica: Kit Adaptadores de 
+viaje Formato conector externo: Macho Funcionalidad: Adaptador de USB 
+a multi-pantalla Tipo conector interno: HDMI+DisplayPort Formato 
+conector interno: Hembra
+8
+0
+Código: DELLDA305Z
+Modelo: Adattatore multiporta 6-in-
+1 USB-C Dell, DA305
+Tipo conector externo: USB-C Tipología específica: Kit Adaptadores de 
+viaje Formato conector externo: Macho Funcionalidad: Adaptador de USB 
+a multi-pantalla Tipo conector interno: HDMI+DisplayPort Formato 
+conector interno: Hembra
+8
+0
+Código: DELL-WD19S130W
+Modelo: DOCK WD19S 130W
+Tipología específica: Docking station Funcionalidad: Funciones multiplas 
+Color primario: negro Material: Plastica
+246
+11
+Código: DELL-WD19S130W
+Modelo: DOCK WD19S 130W
+Tipología específica: Docking station Funcionalidad: Funciones multiplas 
+Color primario: negro Material: Plastica
+246
+11
+Código: DELL-WD19S180W
+Modelo: WD19S 180W
+Tipología específica: Docking station Funcionalidad: Expandir los puertos 
+de un portatil Color primario: negro Material: Plastica
+65
+59
+Código: DELL-WD19S180W
+Modelo: WD19S 180W
+Tipología específica: Docking station Funcionalidad: Expandir los puertos 
+de un portatil Color primario: negro Material: Plastica
+65
+59
+Código: DELL-WD22TB4
+Modelo: DELL-WD22TB4
+Tipología específica: Docking station Funcionalidad: Expandir los puertos 
+de un portatil Color primario: negro Material: Policarbonado
+49
+10
+Código: DELL-WD22TB4
+Modelo: DELL-WD22TB4
+Tipología específica: Docking station Funcionalidad: Expandir los puertos 
+de un portatil Color primario: negro Material: Policarbonado
+49
+10
+ACCESORIOS PARA MONITORES ACCESORIOS DE MONITORES VARIOS
+Código Artículo
+Características principales
+Stock
+Llegadas
+Código: DELL-SB521A
+Modelo: Barra audio Dell sottile - 
+Tipología genérica: Barra Altavoces Tipología específica: BARRA SONIDO 
+Funcionalidad: Difundir el audio Color primario: negro Material: 
+Policarbonato
+36
+0
+
+Código Artículo
+Características principales
+Stock
+Llegadas
+SB521A
+Código: DELL-SB521A
+Modelo: Barra audio Dell sottile - 
+SB521A
+Tipología genérica: Barra Altavoces Tipología específica: BARRA SONIDO 
+Funcionalidad: Difundir el audio Color primario: negro Material: 
+Policarbonato
+36
+0
+Código: DELL-MSA20
+Modelo: Braccio per monitor 
+singolo Dell - MSA20
+Tipología genérica: Brazo para monitor Tipología específica: Brazo 
+monitor Funcionalidad: Sostener el monitor Color primario: negro 
+Material: Policarbonato
+2
+11
+Código: DELL-MSA20
+Modelo: Braccio per monitor 
+singolo Dell - MSA20
+Tipología genérica: Brazo para monitor Tipología específica: Brazo 
+monitor Funcionalidad: Sostener el monitor Color primario: negro 
+Material: Policarbonato
+2
+11
+Código: DELL-SB522A
+Modelo: Barra audio Dell sottile - 
+SB522A
+Tipología genérica: Barra Altavoces Tipología específica: BARRA SONIDO 
+Funcionalidad: Difundir el audio Color primario: negro Material: 
+Policarbonato
+0
+0
+Código: DELL-SB522A
+Modelo: Barra audio Dell sottile - 
+SB522A
+Tipología genérica: Barra Altavoces Tipología específica: BARRA SONIDO 
+Funcionalidad: Difundir el audio Color primario: negro Material: 
+Policarbonato
+0
+0
+ADAPTADORES
+Código Artículo
+Características principales
+Stock
+Llegadas
+Código: DELL-DA310
+Modelo: Adattatore portatile USB-C 
+DA310
+Tipo conector externo: USB Tipo C Formato conector externo: Macho Tipo 
+conector interno: HDMI+DP+VGA+Ethernet+USB-C+USB-A Formato 
+conector interno: Hembra Nº de Unidades por Paquete: 1 Color: Negro
+11
+0
+Código: DELL-DA310
+Modelo: Adattatore portatile USB-C 
+DA310
+Tipo conector externo: USB Tipo C Formato conector externo: Macho Tipo 
+conector interno: HDMI+DP+VGA+Ethernet+USB-C+USB-A Formato 
+conector interno: Hembra Nº de Unidades por Paquete: 1 Color: Negro
+11
+0
+Código: DELL-MH3021P
+Modelo: Adattatore vivavoce Dell 
+Mobile MH3021P
+Tipo conector externo: USB Tipo C Reuniones con: Más de 15 personas 
+Formato conector externo: Macho Tiempo de conversación: N/D Tipo 
+conector interno: HDMI + USB-A + USB-C Batería incorporada: No Formato 
+conector interno: Hembra Bluetooth: No
+0
+0
+Código: DELL-MH3021P
+Modelo: Adattatore vivavoce Dell 
+Mobile MH3021P
+Tipo conector externo: USB Tipo C Reuniones con: Más de 15 personas 
+Formato conector externo: Macho Tiempo de conversación: N/D Tipo 
+conector interno: HDMI + USB-A + USB-C Batería incorporada: No Formato 
+conector interno: Hembra Bluetooth: No
+0
+0
+BOLSAS / MALETAS / FUNDAS / MOCHILAS
+Código Artículo
+Características principales
+Stock
+Llegadas
+Código: DELL-CV5423
+Modelo: Dell Ecoloop Pro Sleeve 11-
+14 CV5423
+Idónea Para: Portátil de 13.3 Categoría: Bolsa de mano COLOR primario: 
+Negro Material: Tejido 900D Ancho Bolsa: 35 cm Número Secciones: 2 
+Bandolera: Sí
+8
+0
+Código: DELL-CV5423
+Modelo: Dell Ecoloop Pro Sleeve 11-
+14 CV5423
+Idónea Para: Portátil de 13.3 Categoría: Bolsa de mano COLOR primario: 
+Negro Material: Tejido 900D Ancho Bolsa: 35 cm Número Secciones: 2 
+Bandolera: Sí
+8
+0
+Código: DELL-CP5724S
+Modelo: Zaino Dell EcoLoop Pro 
+Slim 15
+Idónea Para: Portátil de 15.6 Categoría: mochila COLOR primario: Negro 
+Material: Tejido reciclado Ancho Bolsa: 31,5 cm Número Secciones: 6 
+Bandolera: No
+23
+0
+Código: DELL-CP5724S
+Idónea Para: Portátil de 15.6 Categoría: mochila COLOR primario: Negro 
+Material: Tejido reciclado Ancho Bolsa: 31,5 cm Número Secciones: 6 
+Bandolera: No
+23
+0
+
+Código Artículo
+Características principales
+Stock
+Llegadas
+Modelo: Zaino Dell EcoLoop Pro 
+Slim 15
+Código: DELL-CC5624S
+Modelo: Borsa porta PC Dell 
+EcoLoop Pro Slim 15
+Idónea Para: Portátil de 15.6 Categoría: Bolsa de transporte COLOR 
+primario: Negro Material: Tejido reciclado Ancho Bolsa: 39 cm Número 
+Secciones: 4 Bandolera: Sí
+13
+0
+Código: DELL-CC5624S
+Modelo: Borsa porta PC Dell 
+EcoLoop Pro Slim 15
+Idónea Para: Portátil de 15.6 Categoría: Bolsa de transporte COLOR 
+primario: Negro Material: Tejido reciclado Ancho Bolsa: 39 cm Número 
+Secciones: 4 Bandolera: Sí
+13
+0
+Código: DELL-CP5723
+Modelo: Dell Ecoloop Pro Backpack 
+CP5723
+Idónea Para: Portátil de 16 Categoría: Bandolera COLOR primario: Negro 
+Material: poliester reciclado Ancho Bolsa: 44 cm Número Secciones: 2 
+Bandolera: Sí
+47
+0
+Código: DELL-CP5723
+Modelo: Dell Ecoloop Pro Backpack 
+CP5723
+Idónea Para: Portátil de 16 Categoría: Bandolera COLOR primario: Negro 
+Material: poliester reciclado Ancho Bolsa: 44 cm Número Secciones: 2 
+Bandolera: Sí
+47
+0
+CASCOS Y AURICULARES
+Código Artículo
+Características principales
+Stock
+Llegadas
+Código: WH5024-DWW
+Modelo: Cuffie cablate con ANC Dell 
+Pro - WH5024
+Tipología: Cascos con cable Micrófono incorporado: Sí Control remoto: 
+Control de llamadas y volumen/música Noise canceling: Sí Conectores: 
+USB-C Fuente de alimentación: USB Color primario: Negro
+23
+0
+Código: WH5024-DWW
+Modelo: Cuffie cablate con ANC Dell 
+Pro - WH5024
+Tipología: Cascos con cable Micrófono incorporado: Sí Control remoto: 
+Control de llamadas y volumen/música Noise canceling: Sí Conectores: 
+USB-C Fuente de alimentación: USB Color primario: Negro
+23
+0
+Código: WL5024-DEMEA
+Modelo: Cuffie senza fili con ANC 
+Dell Pro - WL5024
+Tipología: Cascos inalámbricos Micrófono incorporado: Sí Control remoto: 
+Control de llamadas y volumen/música Noise canceling: Sí Conectores: 
+USB-C Fuente de alimentación: USB Color primario: Negro
+74
+0
+Código: WL5024-DEMEA
+Modelo: Cuffie senza fili con ANC 
+Dell Pro - WL5024
+Tipología: Cascos inalámbricos Micrófono incorporado: Sí Control remoto: 
+Control de llamadas y volumen/música Noise canceling: Sí Conectores: 
+USB-C Fuente de alimentación: USB Color primario: Negro
+74
+0
+EXTENSIONES DE GARANTÍA
+Código Artículo
+Características principales
+Stock
+Llegadas
+Código: XNBN_3HD
+Modelo: 3Y Keep Your HD
+Tipo: Keep your hard drive Especificaciónes tipología: Sólo unos modelos 
+Nivel de servicio: Conserva disco duro sustituido Licencia electrónica: Sí 
+Duración: 36 months Cobertura (horas x días): 24 x 7
+100
+0
+Código: XNBN_3HD
+Modelo: 3Y Keep Your HD
+Tipo: Keep your hard drive Especificaciónes tipología: Sólo unos modelos 
+Nivel de servicio: Conserva disco duro sustituido Licencia electrónica: Sí 
+Duración: 36 months Cobertura (horas x días): 24 x 7
+100
+0
+Código: XNBN_4HD
+Modelo: 4Y Keep Your HD
+Tipo: Keep your hard drive Especificaciónes tipología: Sólo unos modelos 
+Nivel de servicio: Conserva disco duro sustituido Licencia electrónica: Sí 
+Duración: 48 months Cobertura (horas x días): 8 x 5
+100
+0
+Código: XNBN_4HD
+Modelo: 4Y Keep Your HD
+Tipo: Keep your hard drive Especificaciónes tipología: Sólo unos modelos 
+Nivel de servicio: Conserva disco duro sustituido Licencia electrónica: Sí 
+Duración: 48 months Cobertura (horas x días): 8 x 5
+100
+0
+Código: XNBN_3AD
+Modelo: 3Y ACC DAM PROT
+Tipo: Copertura danni accidentali Especificaciónes tipología: Upgrade 
+garanzia di Base Nivel de servicio: Riparazione / Sostituzione Licencia 
+electrónica: Sí Duración: 36 Cobertura (diasxhoras): 8X5
+100
+0
+Código: XNBN_3AD
+Tipo: Copertura danni accidentali Especificaciónes tipología: Upgrade 
+garanzia di Base Nivel de servicio: Riparazione / Sostituzione Licencia 
+100
+0
+
+Código Artículo
+Características principales
+Stock
+Llegadas
+Modelo: 3Y ACC DAM PROT
+electrónica: Sí Duración: 36 Cobertura (diasxhoras): 8X5
+Código: XNBN_4AD
+Modelo: 4Y ACC DAM PROT
+Tipo: ADP (Accidental Damage Protection) Tipo: Copertura danni 
+accidentali Especificaciónes tipología: Sólo unos modelos 
+Especificaciónes tipología: Upgrade garanzia di Base Nivel de servicio: 
+Protección contra daños accidentales
+100
+0
+Código: XNBN_4AD
+Modelo: 4Y ACC DAM PROT
+Tipo: ADP (Accidental Damage Protection) Tipo: Copertura danni 
+accidentali Especificaciónes tipología: Sólo unos modelos 
+Especificaciónes tipología: Upgrade garanzia di Base Nivel de servicio: 
+Protección contra daños accidentales
+100
+0
+Código: XNBNMN_1PS3PS
+Modelo: 1Y Prospt to 3Y Prospt
+Tipo: Extensión Especificaciónes tipología: Sólo unos modelos Nivel de 
+servicio: ProSupport: Dìa siguiente laborable (NBD) Licencia electrónica: Sí 
+Duración: 36 months Cobertura (horas x días): 24 x 7
+100
+0
+Código: XNBNMN_1PS3PS
+Modelo: 1Y Prospt to 3Y Prospt
+Tipo: Extensión Especificaciónes tipología: Sólo unos modelos Nivel de 
+servicio: ProSupport: Dìa siguiente laborable (NBD) Licencia electrónica: Sí 
+Duración: 36 months Cobertura (horas x días): 24 x 7
+100
+0
+Código: XNBNMN_1PS4PS
+Modelo: 1Y ProSpt to 4Y ProSpt
+Tipo: Extensión Especificaciónes tipología: Sólo unos modelos Nivel de 
+servicio: Pro Support Licencia electrónica: Sí Duración: 48 months 
+Cobertura (horas x días): 24 x 7
+100
+0
+Código: XNBNMN_1PS4PS
+Modelo: 1Y ProSpt to 4Y ProSpt
+Tipo: Extensión Especificaciónes tipología: Sólo unos modelos Nivel de 
+servicio: Pro Support Licencia electrónica: Sí Duración: 48 months 
+Cobertura (horas x días): 24 x 7
+100
+0
+Código: XNBNMN_1PS3PSP
+Modelo: 1Y ProSupport to 3Y 
+ProSupport Plus
+Tipo: Extensión Especificaciónes tipología: Sólo unos modelos Nivel de 
+servicio: Pro Support Licencia electrónica: Sí Duración: 36 months 
+Cobertura (horas x días): 24 x 7
+100
+0
+Código: XNBNMN_1PS3PSP
+Modelo: 1Y ProSupport to 3Y 
+ProSupport Plus
+Tipo: Extensión Especificaciónes tipología: Sólo unos modelos Nivel de 
+servicio: Pro Support Licencia electrónica: Sí Duración: 36 months 
+Cobertura (horas x días): 24 x 7
+100
+0
+Código: XNBNMN_1PS4PSP
+Modelo: 1Y ProSupport to 4Y 
+ProSupport Plus
+Tipo: Extensión Especificaciónes tipología: Sólo unos modelos Nivel de 
+servicio: Pro Support Licencia electrónica: Sí Duración: 48 months 
+Cobertura (horas x días): 24 x 7
+100
+0
+Código: XNBNMN_1PS4PSP
+Modelo: 1Y ProSupport to 4Y 
+ProSupport Plus
+Tipo: Extensión Especificaciónes tipología: Sólo unos modelos Nivel de 
+servicio: Pro Support Licencia electrónica: Sí Duración: 48 months 
+Cobertura (horas x días): 24 x 7
+100
+0
+MONITOR DESKTOP
+Código Artículo
+Características principales
+Stock
+Llegadas
+Código: DELL-U3223QE
+Modelo: U3223QE UltraSharp 4K 
+Hub USB-C
+Longitud diagonal (pulgadas): 31,5 '' Relación de aspecto: 16:9 Pantalla 
+táctil: No Tecnologia de panel: IPS (In-Plane Switching) No. de puertos 
+HDMI: 1 Resolución óptima horizontal: 3840 px Regulable en altura: Sí 
+Pivotante: Sí
+0
+13
+Código: DELL-U3223QE
+Modelo: U3223QE UltraSharp 4K 
+Hub USB-C
+Longitud diagonal (pulgadas): 31,5 '' Relación de aspecto: 16:9 Pantalla 
+táctil: No Tecnologia de panel: IPS (In-Plane Switching) No. de puertos 
+HDMI: 1 Resolución óptima horizontal: 3840 px Regulable en altura: Sí 
+Pivotante: Sí
+0
+13
+Código: DELL-U3223QE
+Modelo: U3223QE UltraSharp 4K 
+Hub USB-C
+Longitud diagonal (pulgadas): 31,5 '' Relación de aspecto: 16:9 Pantalla 
+táctil: No Tecnologia de panel: IPS (In-Plane Switching) No. de puertos 
+HDMI: 1 Resolución óptima horizontal: 3840 px Regulable en altura: Sí 
+Pivotante: Sí
+0
+13
+SOPORTES, ERGONOMÍA Y LIMPIEZA
+Código Artículo
+Características principales
+Stock
+Llegadas
+Código: DELL-MDS19
+Modelo: Dual Stand - MDS19
+Tipología genérica: Soporte Monitor da mesa Idóneo para monitores 
+hasta: 27 '' Tipología específica: Base monitor a tavolo Peso máximo 
+soportado: 6 kg Funcionalidad: Conectar mas monitores Color primario: 
+negro Color: Negro + Gris
+11
+0
+
+Código Artículo
+Características principales
+Stock
+Llegadas
+Código: DELL-MDS19
+Modelo: Dual Stand - MDS19
+Tipología genérica: Soporte Monitor da mesa Idóneo para monitores 
+hasta: 27 '' Tipología específica: Base monitor a tavolo Peso máximo 
+soportado: 6 kg Funcionalidad: Conectar mas monitores Color primario: 
+negro Color: Negro + Gris
+11
+0
+Código: DELL-MDS19
+Modelo: Dual Stand - MDS19
+Tipología genérica: Soporte Monitor da mesa Idóneo para monitores 
+hasta: 27 '' Tipología específica: Base monitor a tavolo Peso máximo 
+soportado: 6 kg Funcionalidad: Conectar mas monitores Color primario: 
+negro Color: Negro + Gris
+11
+0
+Código: DELL-MDA20
+Modelo: Dell dual monitor arm 
+MDA20
+Tipología genérica: Brazo para monitor Idóneo para monitores hasta: 27 '' 
+Tipología específica: Brazo monitor Peso máximo soportado: 10 kg 
+Funcionalidad: Anclar l'ordinedor al monitor Color primario: gris Color: 
+Negro Material: Ninguno
+0
+4
+Código: DELL-MDA20
+Modelo: Dell dual monitor arm 
+MDA20
+Tipología genérica: Brazo para monitor Idóneo para monitores hasta: 27 '' 
+Tipología específica: Brazo monitor Peso máximo soportado: 10 kg 
+Funcionalidad: Anclar l'ordinedor al monitor Color primario: gris Color: 
+Negro Material: Ninguno
+0
+4
+Código: DELL-MDA20
+Modelo: Dell dual monitor arm 
+MDA20
+Tipología genérica: Brazo para monitor Idóneo para monitores hasta: 27 '' 
+Tipología específica: Brazo monitor Peso máximo soportado: 10 kg 
+Funcionalidad: Anclar l'ordinedor al monitor Color primario: gris Color: 
+Negro Material: Ninguno
+0
+4
+SSD
+Código Artículo
+Características principales
+Stock
+Llegadas
+Código: AC280179
+Modelo: M.2 PCIE NVME CLASS 35 
+2230 1TB
+Capacidad: 1024 GB Interfaz: M.2 Tamaño: 0 '' Velocidad Escritura: 0 MB/s 
+Velocidad Lectura: 0 MB/s
+14
+0
+Código: AC280179
+Modelo: M.2 PCIE NVME CLASS 35 
+2230 1TB
+Capacidad: 1024 GB Interfaz: M.2 Tamaño: 0 '' Velocidad Escritura: 0 MB/s 
+Velocidad Lectura: 0 MB/s
+14
+0
+Código: AC280179
+Modelo: M.2 PCIE NVME CLASS 35 
+2230 1TB
+Capacidad: 1024 GB Interfaz: M.2 Tamaño: 0 '' Velocidad Escritura: 0 MB/s 
+Velocidad Lectura: 0 MB/s
+14
+0
+TECLADOS Y RATONES
+Código Artículo
+Características principales
+Stock
+Llegadas
+Código: MS300-BK-R-EU
+Modelo: Mouse standard senza fili 
+Dell - MS300
+Interfaz: Wi-Fi Color principal: Negro Ergonómico: Sí
+17
+0
+Código: MS300-BK-R-EU
+Modelo: Mouse standard senza fili 
+Dell - MS300
+Interfaz: Wi-Fi Color principal: Negro Ergonómico: Sí
+17
+0
+Código: MS300-BK-R-EU
+Modelo: Mouse standard senza fili 
+Dell - MS300
+Interfaz: Wi-Fi Color principal: Negro Ergonómico: Sí
+17
+0
+Código: MS3320W-BLK
+Modelo: Mouse portatile senza fili 
+Dell - MS3320W - nero
+Interfaz: Bluetooth Color principal: Negro Ergonómico: Sí
+76
+0
+Código: MS3320W-BLK
+Modelo: Mouse portatile senza fili 
+Dell - MS3320W - nero
+Interfaz: Bluetooth Color principal: Negro Ergonómico: Sí
+76
+0
+Código: MS3320W-BLK
+Interfaz: Bluetooth Color principal: Negro Ergonómico: Sí
+76
+0
+
+Código Artículo
+Características principales
+Stock
+Llegadas
+Modelo: Mouse portatile senza fili 
+Dell - MS3320W - nero
+Código: KB500-BK-R-SPN
+Modelo: Teclado inalámbrico Dell - 
+KB500 - español (QWERTY)
+Interfaz: Wireless Bluetooth USB Disposición del teclado: Versión española 
+Color principal: Negro Retroiluminación: No
+12
+6
+Código: KB500-BK-R-SPN
+Modelo: Teclado inalámbrico Dell - 
+KB500 - español (QWERTY)
+Interfaz: Wireless Bluetooth USB Disposición del teclado: Versión española 
+Color principal: Negro Retroiluminación: No
+12
+6
+Código: KB500-BK-R-SPN
+Modelo: Teclado inalámbrico Dell - 
+KB500 - español (QWERTY)
+Interfaz: Wireless Bluetooth USB Disposición del teclado: Versión española 
+Color principal: Negro Retroiluminación: No
+12
+6
+Código: KM5221WBKB-SPN
+Modelo: KEYBOARD AND MOUSE 
+KM5221W
+Interfaz: Wireless con receptor Interfaz: Inalámbrica Disposición del 
+teclado: Versión española Color principal: Negro Color principal: Negro 
+Retroiluminación: No Ergonómico: No
+259
+0
+Código: KM5221WBKB-SPN
+Modelo: KEYBOARD AND MOUSE 
+KM5221W
+Interfaz: Wireless con receptor Interfaz: Inalámbrica Disposición del 
+teclado: Versión española Color principal: Negro Color principal: Negro 
+Retroiluminación: No Ergonómico: No
+259
+0
+Código: KM5221WBKB-SPN
+Modelo: KEYBOARD AND MOUSE 
+KM5221W
+Interfaz: Wireless con receptor Interfaz: Inalámbrica Disposición del 
+teclado: Versión española Color principal: Negro Color principal: Negro 
+Retroiluminación: No Ergonómico: No
+259
+0
+Código: MS700-BK-R-EU
+Modelo: Mouse Bluetooth da 
+viaggio Dell - MS700
+Interfaz: Bluetooth Color principal: Gris Ergonómico: Sí
+1
+4
+Código: MS700-BK-R-EU
+Modelo: Mouse Bluetooth da 
+viaggio Dell - MS700
+Interfaz: Bluetooth Color principal: Gris Ergonómico: Sí
+1
+4
+Código: MS700-BK-R-EU
+Modelo: Mouse Bluetooth da 
+viaggio Dell - MS700
+Interfaz: Bluetooth Color principal: Gris Ergonómico: Sí
+1
+4
+Código: KM555-BLK-SPN
+Modelo: Dell Pro Compact Silent 
+Keyboard and Mouse - KM555 - 
+Spanish
+Interfaz: Wireless + Bluetooth Disposición del teclado: Versión española 
+Color principal: Negro Retroiluminación: No
+60
+0
+Código: KM555-BLK-SPN
+Modelo: Dell Pro Compact Silent 
+Keyboard and Mouse - KM555 - 
+Spanish
+Interfaz: Wireless + Bluetooth Disposición del teclado: Versión española 
+Color principal: Negro Retroiluminación: No
+60
+0
+Código: KM555-BLK-SPN
+Modelo: Dell Pro Compact Silent 
+Keyboard and Mouse - KM555 - 
+Spanish
+Interfaz: Wireless + Bluetooth Disposición del teclado: Versión española 
+Color principal: Negro Retroiluminación: No
+60
+0
+Código: KM7321WGY-SPN
+Modelo: Dell Premier Multi-Device 
+Wireless Keyboard and Mouse - 
+KM7321W - Spanish (QWERTY)
+Interfaz: Bluetooth + Wireless Interfaz: Bluetooth Disposición del teclado: 
+Versión española Color principal: Gris Color principal: Gris 
+Retroiluminación: No Ergonómico: Sí
+60
+0
+
+Código Artículo
+Características principales
+Stock
+Llegadas
+Código: KM7321WGY-SPN
+Modelo: Dell Premier Multi-Device 
+Wireless Keyboard and Mouse - 
+KM7321W - Spanish (QWERTY)
+Interfaz: Bluetooth + Wireless Interfaz: Bluetooth Disposición del teclado: 
+Versión española Color principal: Gris Color principal: Gris 
+Retroiluminación: No Ergonómico: Sí
+60
+0
+Código: KM7321WGY-SPN
+Modelo: Dell Premier Multi-Device 
+Wireless Keyboard and Mouse - 
+KM7321W - Spanish (QWERTY)
+Interfaz: Bluetooth + Wireless Interfaz: Bluetooth Disposición del teclado: 
+Versión española Color principal: Gris Color principal: Gris 
+Retroiluminación: No Ergonómico: Sí
+60
+0
+Código: KM7120W-GY-SPN
+Modelo: WIRELESS KEYBOARD AND 
+MOUSE KM7120W
+Interfaz: Bluetooth + Wireless Interfaz: Inalámbrica Disposición del 
+teclado: Versión española Color principal: Gris Color principal: Gris 
+Retroiluminación: No Ergonómico: No
+52
+3
+Código: KM7120W-GY-SPN
+Modelo: WIRELESS KEYBOARD AND 
+MOUSE KM7120W
+Interfaz: Bluetooth + Wireless Interfaz: Inalámbrica Disposición del 
+teclado: Versión española Color principal: Gris Color principal: Gris 
+Retroiluminación: No Ergonómico: No
+52
+3
+Código: KM7120W-GY-SPN
+Modelo: WIRELESS KEYBOARD AND 
+MOUSE KM7120W
+Interfaz: Bluetooth + Wireless Interfaz: Inalámbrica Disposición del 
+teclado: Versión española Color principal: Gris Color principal: Gris 
+Retroiluminación: No Ergonómico: No
+52
+3
+Código: MS900-GR-EMEA
+Modelo: Mouse ricaricabile Dell 
+Premier - MS900
+Interfaz: Wi-Fi Color principal: Negro Ergonómico: Sí
+5
+0
+Código: MS900-GR-EMEA
+Modelo: Mouse ricaricabile Dell 
+Premier - MS900
+Interfaz: Wi-Fi Color principal: Negro Ergonómico: Sí
+5
+0
+Código: MS900-GR-EMEA
+Modelo: Mouse ricaricabile Dell 
+Premier - MS900
+Interfaz: Wi-Fi Color principal: Negro Ergonómico: Sí
+5
+0
+Código: KB900-GR-SPN
+Modelo: Teclado de colaboración 
+Dell Premier KB900 - español 
+(QWERTY)
+Interfaz: Wireless Bluetooth USB Disposición del teclado: Versión española 
+Color principal: Negro Retroiluminación: No
+15
+0
+Código: KB900-GR-SPN
+Modelo: Teclado de colaboración 
+Dell Premier KB900 - español 
+(QWERTY)
+Interfaz: Wireless Bluetooth USB Disposición del teclado: Versión española 
+Color principal: Negro Retroiluminación: No
+15
+0
+Código: KB900-GR-SPN
+Modelo: Teclado de colaboración 
+Dell Premier KB900 - español 
+(QWERTY)
+Interfaz: Wireless Bluetooth USB Disposición del teclado: Versión española 
+Color principal: Negro Retroiluminación: No
+15
+0
+Código: KB700-GY-R-SPN
+Modelo: Teclado inalámbrico 
+multidispositivo Dell - KB700 - 
+español (QWERTY)
+Interfaz: Wireless Bluetooth USB Disposición del teclado: Versión española 
+Color principal: Gris Retroiluminación: No
+0
+3
+Código: KB700-GY-R-SPN
+Modelo: Teclado inalámbrico 
+multidispositivo Dell - KB700 - 
+español (QWERTY)
+Interfaz: Wireless Bluetooth USB Disposición del teclado: Versión española 
+Color principal: Gris Retroiluminación: No
+0
+3
+
+Código Artículo
+Características principales
+Stock
+Llegadas
+Código: KB700-GY-R-SPN
+Modelo: Teclado inalámbrico 
+multidispositivo Dell - KB700 - 
+español (QWERTY)
+Interfaz: Wireless Bluetooth USB Disposición del teclado: Versión española 
+Color principal: Gris Retroiluminación: No
+0
+3
+WEB - CAM
+Código Artículo
+Características principales
+Stock
+Llegadas
+Código: WB7022-DEMEA
+Modelo: Webcam Dell UltraSharp 
+WB7022
+Resolución de vídeo horizontal: 3840 pixel Resolución de vídeo vertical: 
+2140 px Resolución de vídeo en fps: 30 fps Zoom digital: 5 x CCD: Sí MP 
+Color principal: Negro Interfaz: USB
+7
+0
+Código: WB7022-DEMEA
+Modelo: Webcam Dell UltraSharp 
+WB7022
+Resolución de vídeo horizontal: 3840 pixel Resolución de vídeo vertical: 
+2140 px Resolución de vídeo en fps: 30 fps Zoom digital: 5 x CCD: Sí MP 
+Color principal: Negro Interfaz: USB
+7
+0
+Código: WB7022-DEMEA
+Modelo: Webcam Dell UltraSharp 
+WB7022
+Resolución de vídeo horizontal: 3840 pixel Resolución de vídeo vertical: 
+2140 px Resolución de vídeo en fps: 30 fps Zoom digital: 5 x CCD: Sí MP 
+Color principal: Negro Interfaz: USB
+7
+0
+Código: WB3023-DEMEA
+Modelo: Webcam Dell - WB3023
+Resolución de vídeo horizontal: 2048 pixel Resolución de vídeo vertical: 
+1080 px Resolución de vídeo en fps: 30 fps Zoom digital: 4 x CCD: No MP 
+Color principal: Negro Interfaz: USB
+0
+0
+Código: WB3023-DEMEA
+Modelo: Webcam Dell - WB3023
+Resolución de vídeo horizontal: 2048 pixel Resolución de vídeo vertical: 
+1080 px Resolución de vídeo en fps: 30 fps Zoom digital: 4 x CCD: No MP 
+Color principal: Negro Interfaz: USB
+0
+0
+Código: WB3023-DEMEA
+Modelo: Webcam Dell - WB3023
+Resolución de vídeo horizontal: 2048 pixel Resolución de vídeo vertical: 
+1080 px Resolución de vídeo en fps: 30 fps Zoom digital: 4 x CCD: No MP 
+Color principal: Negro Interfaz: USB
+0
+0
+Código: WB5023-DEMEA
+Modelo: Webcam Dell Pro 2K - 
+WB5023
+Resolución de vídeo horizontal: 2480 pixel Resolución de vídeo vertical: 
+1080 px Resolución de vídeo en fps: 30 fps Zoom digital: 4 x CCD: Sí MP 
+Color principal: Negro Interfaz: USB
+0
+0
+Código: WB5023-DEMEA
+Modelo: Webcam Dell Pro 2K - 
+WB5023
+Resolución de vídeo horizontal: 2480 pixel Resolución de vídeo vertical: 
+1080 px Resolución de vídeo en fps: 30 fps Zoom digital: 4 x CCD: Sí MP 
+Color principal: Negro Interfaz: USB
+0
+0
+Código: WB5023-DEMEA
+Modelo: Webcam Dell Pro 2K - 
+WB5023
+Resolución de vídeo horizontal: 2480 pixel Resolución de vídeo vertical: 
+1080 px Resolución de vídeo en fps: 30 fps Zoom digital: 4 x CCD: Sí MP 
+Color principal: Negro Interfaz: USB
+0
+0
+No se proporciona ninguna garantía ni declaración en cuanto a la exactitud de esta información y se declina cualquier responsabilidad por errores tipográficos u 
+otros errores u omisiones en el tipo de contenido. Al proporcionar esta información, además, no se concede ninguna licencia sobre ningún copyright, patente o 
+cualquier otro derecho de propiedad intelectual. No puede modificar de ninguna manera los materiales de esta web, ni reproducir o mostrar públicamente, ni 
+distribuir o utilizar de otro modo para fines públicos o comerciales. En caso de violación de estos Términos, la autorización de uso será necesaria, destruyendo con 
+efecto inmediato eventuales materiales descargados o impresos.
+

@@ -1,0 +1,400 @@
+ARTI SOFTWARE TEC. INF. S.L. 
+ANTONIO PEREZ 7 4º-4 
+28002 MADRID (28) 
+Tel: +34656359467 
+Fax:  
+e-mail: jaromero@artisoft.es
+Microsoft Surface Pro 10 i7/32/512/W11 Platino 
+Código: Y6B-00005
+2.311,45 €
+Microsoft Surface PRO 10 para Empresas:
+Obtenga la movilidad de tableta y un rendimiento un 53 % más rápido con los nuevos 
+procesadores Intel, todo en un diseño duradero y ultramóvil. Surface Pro 10 para empresas 
+viene con funciones de nivel comercial, seguridad integrada del chip a la nube y 
+herramientas impulsadas por IA para facilitar las tareas diarias.
+Seguridad de clase mundial
+Windows 11 Pro proporciona una sólida protección integrada para mantener segura su 
+información.
+Productividad segura
+Microsoft 365 para empresas: seguridad avanzada, administración de dispositivos y 
+productividad de vanguardia.
+Mantenimiento más fácil
+El dispositivo Surface Pro más manejable hasta la fecha, con íconos claros y acceso 
+integrado a instrucciones de reparación.
+Multitarea a nivel profesional
+Realice fácilmente las tareas más exigentes con los nuevos procesadores Intel® Core™ Ultra.
+Llamadas mejoradas por IA
+Windows Studio Effects mejora la cámara Surface Studio con capacidades de IA integradas.
+Ultraligero, ultraportátil
+Con un peso inferior a 907 g, nunca tendrás que sacrificar la movilidad por la potencia.
+Ordenador portátil 2 en 1 de 13" con Win11PRO
+DISCO DURO
+Disco duro
+512 GB
+Tipo Soporte 1
+Hybrid-HDD
+Interfaz Soporte 1
+SSD
+Número Soportes
+1
+GRÁFICA
+Gráfica integrada
+Si
+Fabricante de la 
+gráfica
+Intel
+Modelo gráfica
+Intel Graphics
+Memoria de la gráfica
+0 mb
+PROCESADOR
+Familia Procesador
+Intel Core 
+Ultra 7
+Modelo de procesador
+i7-165U
+Fabricante procesador
+Intel
+Frecuencia del 
+procesador
+1,7 GHz
+Frecuencia del 
+procesador turbo
+4,9 GHz
+Intel V-pro
+No
+ 
+PANTALLA
+Tamaño pantalla
+13 ''
+Pantalla táctil
+Si
+Tipo de pantalla
+LCD
+Resolución (Estándar)
+2880 x 1920
+Superficie de la 
+Brillo
+Luminosidad
+600 cd/m2
+Contraste
+1.300 :1
+ 
+
+pantalla
+DIMENSIONES & PESO
+Peso sin embalaje
+0,88 kg
+Altura
+28,7 cm
+Ancho
+20,8 cm
+Profundidad
+0,93 cm
+GENERAL
+Color
+Gris
+Trusted Platform 
+Module (TPM)
+Si
+Material Chasis
+Aluminio
+Detección huella 
+dactilar
+No
+2 en 1 Detachable
+Si
+Convertibili 2 in 1
+Si
+ 
+CONEXIONES
+Conexión a red móvil
+No
+N° total de puertos 
+USB
+2
+Puertos USB 4 (40 
+Gbps) Type-C
+2
+Ethernet
+No presente
+Porte VGA
+No
+Bluetooth
+Si
+Bluetooth Versión
+5,3
+Puerto Thunderbolt
+Si
+Puerto HDMI
+No
+Conexión para 
+Dockstation del 
+fabricante
+Si
+Wireless (standard)
+Wi-Fi 6 
+(802.11ax)
+Otras conexiones
+2 × USB-C with USB 4.0/ Thunderbolt 4 
+1 × Surface Connect port 
+1 × Surface Type Cover port 
+M.2 rSSD 
+ 
+RAM
+RAM Instalada
+32 GB
+RAM Máxima
+32 GB
+Bancos RAM Libres
+0
+Velocidad de la 
+memoria de reloj
+8.533 MHz
+Tecnología de la RAM
+LPDDR5X
+ 
+UNIDADES ÓPTICAS
+Tipología unidad 
+instalada
+N
+ 
+TECLADO Y SISTEMA PARA APUNTAR
+Teclado 
+retroiluminado
+No
+ 
+AUDIO
+Micrófono Integrado
+Si
+ 
+BATERÍA
+Número celdas
+4
+Duración de la batería 
+hasta
+19 h
+ 
+WEBCAM
+Webcam integrada
+Si
+Resolución Webcam
+1920 x 1080
+Infrarrojos
+Si
+ 
+SOLUCIONES
+Escuela Digital
+Genérico
+Pc Gaming
+No
+ 
+SISTEMA OPERATIVO & SOFTWARE
+Version S.O.
+Windows 11 
+Pro
+Software Incluido
+Preloaded Microsoft 365 Apps:
+Microsoft 365 Business Standard,
+Microsoft 365 BusinessPremium
+or Microsoft 365 Apps 30-day trial
+ 
+Opciones
+ACCESORIOS ORDENADORES PORTÁTILES DOCKING STATION Y EXPANSION PARA PORTÁTILES
+Código Artículo
+Características principales
+Stock
+Llegadas
+Código: T8I-00004
+Modelo: Surface Thunderbolt 4
+Tipología específica: Docking station Funcionalidad: Adaptador para 
+Docking Color primario: negro Material: Plastica
+26
+0
+Código: T8I-00004
+Modelo: Surface Thunderbolt 4
+Tipología específica: Docking station Funcionalidad: Adaptador para 
+Docking Color primario: negro Material: Plastica
+26
+0
+ACCESORIOS ORDENADORES PORTÁTILES LÁPICES PARA PORTÁTILES
+Código Artículo
+Características principales
+Stock
+Llegadas
+Código: 8WX-00006
+Modelo: Surface Slim Pen 2
+Tipología específica: Boligrafo digital Funcionalidad: Escribir Universal: No 
+Color primario: negro Material: Aluminio
+0
+0
+Código: 8WX-00006
+Modelo: Surface Slim Pen 2
+Tipología específica: Boligrafo digital Funcionalidad: Escribir Universal: No 
+Color primario: negro Material: Aluminio
+0
+0
+
+ACCESORIOS TABLET Y LIBRO ELECTRÓNICO FUNDA CON TECLADO PARA TABLET
+Código Artículo
+Características principales
+Stock
+Llegadas
+Código: EP2-00405
+Modelo: Surface Pro 10 Teclado 
+Negro Español
+Tipología específica: Cover surface pro Material: Alcantara Color primario: 
+Negro Dedicado: No Peso: 310 gr
+8
+0
+Código: EP2-00405
+Modelo: Surface Pro 10 Teclado 
+Negro Español
+Tipología específica: Cover surface pro Material: Alcantara Color primario: 
+Negro Dedicado: No Peso: 310 gr
+8
+0
+Código: 8XB-00150
+Modelo: Surface Pro 10 Teclado 
+Negro Español con carga Slim Pen
+Tipología específica: Cover surface pro Material: Alcantara Color primario: 
+Negro Dedicado: No Peso: 310 gr
+23
+0
+Código: 8XB-00197
+Modelo: Surface Pro 10 Teclado 
+Platino Español con carga Slim Pen
+Tipología específica: Cover surface pro Material: Alcantara Color primario: 
+Plata Dedicado: No Peso: 310 gr
+1
+0
+Código: 8XB-00150
+Modelo: Surface Pro 10 Teclado 
+Negro Español con carga Slim Pen
+Tipología específica: Cover surface pro Material: Alcantara Color primario: 
+Negro Dedicado: No Peso: 310 gr
+23
+0
+Código: 8XB-00197
+Modelo: Surface Pro 10 Teclado 
+Platino Español con carga Slim Pen
+Tipología específica: Cover surface pro Material: Alcantara Color primario: 
+Plata Dedicado: No Peso: 310 gr
+1
+0
+Código: 8X8-00152
+Modelo: Surface Pro 10 Teclado + 
+Lápiz Bundle Negro
+Tipología específica: Cover surface pro Material: Alcantara Color primario: 
+Negro Dedicado: No Peso: 310 gr
+2
+20
+Código: 8X8-00175
+Modelo: Surface Pro 10 Teclado + 
+Lápiz Bundle Platino
+Tipología específica: Cover surface pro Material: Alcantara Color primario: 
+Plata Dedicado: No Peso: 310 gr
+21
+25
+Código: 8X8-00152
+Modelo: Surface Pro 10 Teclado + 
+Lápiz Bundle Negro
+Tipología específica: Cover surface pro Material: Alcantara Color primario: 
+Negro Dedicado: No Peso: 310 gr
+2
+20
+Código: 8X8-00175
+Modelo: Surface Pro 10 Teclado + 
+Lápiz Bundle Platino
+Tipología específica: Cover surface pro Material: Alcantara Color primario: 
+Plata Dedicado: No Peso: 310 gr
+21
+25
+EXTENSIONES DE GARANTÍA
+Código Artículo
+Características principales
+Stock
+Llegadas
+Código: 1VC-00054
+Modelo: Ampliación Garantía a 4 
+años Estándar Surface Pro 10 / Pro 
+Copilot + PC
+Tipo: Extensión Especificaciónes tipología: Sólo unos modelos Nivel de 
+servicio: estensione di garanzia standard Licencia electrónica: Sí Duración: 
+12 months Cobertura (horas x días): Na
+100
+0
+Código: 1VC-00054
+Modelo: Ampliación Garantía a 4 
+años Estándar Surface Pro 10 / Pro 
+Copilot + PC
+Tipo: Extensión Especificaciónes tipología: Sólo unos modelos Nivel de 
+servicio: estensione di garanzia standard Licencia electrónica: Sí Duración: 
+12 months Cobertura (horas x días): Na
+100
+0
+Código: NRW-00038
+Modelo: Ampliación Garantía a 4 
+años Service Plus Surface Pro 10 / 
+Tipo: Extensión Especificaciónes tipología: Sólo unos modelos Nivel de 
+servicio: estensione di garanzia standard Licencia electrónica: Sí Duración: 
+12 months Cobertura (horas x días): Na
+100
+0
+
+Código Artículo
+Características principales
+Stock
+Llegadas
+Pro Copilot + PC
+Código: NRW-00038
+Modelo: Ampliación Garantía a 4 
+años Service Plus Surface Pro 10 / 
+Pro Copilot + PC
+Tipo: Extensión Especificaciónes tipología: Sólo unos modelos Nivel de 
+servicio: estensione di garanzia standard Licencia electrónica: Sí Duración: 
+12 months Cobertura (horas x días): Na
+100
+0
+Código: MJ1-00418
+Modelo: Seguro Daños Accidentales 
+4 años Surface PRO 10 / Pro Copilot 
++ PC
+Tipo: ADP (Accidental Damage Protection) Especificaciónes tipología: Sólo 
+unos modelos Nivel de servicio: ADP Licencia electrónica: Sí Duración: 48 
+months Cobertura (horas x días): 8 x 5
+100
+0
+Código: MJ1-00418
+Modelo: Seguro Daños Accidentales 
+4 años Surface PRO 10 / Pro Copilot 
++ PC
+Tipo: ADP (Accidental Damage Protection) Especificaciónes tipología: Sólo 
+unos modelos Nivel de servicio: ADP Licencia electrónica: Sí Duración: 48 
+months Cobertura (horas x días): 8 x 5
+100
+0
+Código: NSI-00254
+Modelo: Seguro Daños Accidentales 
+PLUS 4 años Surface Pro 10 / Pro 
+Copilot + PC
+Tipo: ADP (Accidental Damage Protection) Especificaciónes tipología: Sólo 
+unos modelos Nivel de servicio: ADP Licencia electrónica: Sí Duración: 48 
+months Cobertura (horas x días): 8 x 5
+100
+0
+Código: NSI-00254
+Modelo: Seguro Daños Accidentales 
+PLUS 4 años Surface Pro 10 / Pro 
+Copilot + PC
+Tipo: ADP (Accidental Damage Protection) Especificaciónes tipología: Sólo 
+unos modelos Nivel de servicio: ADP Licencia electrónica: Sí Duración: 48 
+months Cobertura (horas x días): 8 x 5
+100
+0
+No se proporciona ninguna garantía ni declaración en cuanto a la exactitud de esta información y se declina cualquier responsabilidad por errores tipográficos u 
+otros errores u omisiones en el tipo de contenido. Al proporcionar esta información, además, no se concede ninguna licencia sobre ningún copyright, patente o 
+cualquier otro derecho de propiedad intelectual. No puede modificar de ninguna manera los materiales de esta web, ni reproducir o mostrar públicamente, ni 
+distribuir o utilizar de otro modo para fines públicos o comerciales. En caso de violación de estos Términos, la autorización de uso será necesaria, destruyendo con 
+efecto inmediato eventuales materiales descargados o impresos.
+
