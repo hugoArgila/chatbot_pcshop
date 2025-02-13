@@ -1,0 +1,5 @@
+Flask==2.2.2
+azure-cosmos==4.4.0
+python-dotenv==0.21.1
+pymongo==4.0.1
+flask-cors==3.1.1

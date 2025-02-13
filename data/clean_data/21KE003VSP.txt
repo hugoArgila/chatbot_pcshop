@@ -1,0 +1,517 @@
+ARTI SOFTWARE TEC. INF. S.L. 
+ANTONIO PEREZ 7 4º-4 
+28002 MADRID (28) 
+Tel: +34656359467 
+Fax:  
+e-mail: jaromero@artisoft.es
+Lenovo ThinkPad X1 2-in-1 Gen 9 
+Código: 21KE003VSP
+2.546,24 €
+Portátil Lenovo ThinkPad X1 2-in-1 Gen 9
+Ver ficha completa en " otros contenidos"
+ 
+Ver accesorios compatibles, ampliaciones de garantía, servicios y software recomendado en:
+https://smartfind.lenovo.com/accessories/#/
+ 
+Gracias a los procesadores Intel® Core™ Ultra, el portátil ThinkPad X1 2-in-1 Gen 9 sitúa la potencia de la IA en 
+primera línea. Disfruta de un rendimiento perfeccionado con motores de IA especializados, incluida la unidad 
+de procesamiento neuronal (NPU) de bajo consumo que te permite aprovechar al máximo la batería. Haz varias 
+tareas a la vez gracias a la velocidad de la memoria LPDDR5x. Anímate y activa el encuadre automático, el 
+desenfoque de fondo o la función de mejora en condiciones de poca luz para tus reuniones online, ¡incluso con 
+la batería! Elige la edición Intel vPro® Evo™ para disfrutar de seguridad multicapa, rendimiento de nivel 
+profesional, estabilidad fiable y gestión integral para IT. 
+Refrigeración óptima constante
+Sigue el ritmo de las cargas de trabajo más exigentes a la perfección y disfruta de un dispositivo siempre bien 
+refrigerado. Nuestro equipo de ingenieros especializados ha aumentado la capacidad térmica de la generación 
+anterior en un 44 % en el portátil ThinkPad X1 2-in-1 Gen 9 ¡y sin dejar de ser supersilencioso! Los ventiladores 
+de diseño dual dispersan el calor de modo que, incluso cuando se exige al sistema gestionar múltiples retos, 
+este se mantiene fresco como una rosa.
+Convierte tu portátil 2 en 1 en tu centro de operaciones  
+El portátil ThinkPad X1 2-in-1 Gen 9 con tecnología Intel® Evo™ está diseñado para hacerlo todo. Disfruta de una 
+autonomía de la batería que dura todo el día, activación instantánea y la mejor conectividad de su clase. Sean 
+cuales sean las tareas a las que te enfrentes, este dispositivo tiene una gran capacidad de respuesta. Además, la 
+tecnología Intel® Unison™ te permite sincronizar tu portátil con cualquier smartphone iOS o Android y llamar, 
+enviar mensajes de texto o transferir archivos, fotos y vídeos desde la comodidad de tu PC. 
+Tu cara. Tu huella dactilar. Tu fortaleza. 
+La biometría aporta protección adicional al portátil ThinkPad X1 2-in-1 Gen 9, a través del lector de huellas 
+dactilares y el software de reconocimiento facial. ThinkShield, nuestra completa suite de soluciones de 
+seguridad, incorpora un discreto Módulo de plataforma segura (dTPM) para proteger los datos críticos mediante 
+cifrado. Además, la Tecnología Intel® Threat Detection (TDT) asistida por IA contribuye a evitar el ransomware, 
+el cryptojacking y mucho más. En cuestión de seguridad y protección de activos ¡tenemos todo bajo control! 
+ 
+ 
+Garantía :  
+36meses
+DISCO DURO
+Disco duro
+1.024 GB
+Tipo Soporte 1
+SSD
+Interfaz Soporte 1
+PCI Express 
+4.0
+Velocidad Soporte 1
+2.280 rpm
+Número Soportes
+1
+ 
+GRÁFICA
+Gráfica integrada
+No
+Fabricante de la 
+gráfica
+Intel
+Modelo gráfica
+Intel Graphics
+Memoria de la gráfica
+0 mb
+PROCESADOR
+Familia Procesador
+Intel Core 
+Ultra 7
+Modelo de procesador
+155U
+Fabricante procesador
+Intel
+Frecuencia del 
+procesador
+4,8 GHz
+
+PANTALLA
+Tamaño pantalla
+14 ''
+Pantalla táctil
+Si
+Tipo de pantalla
+IPS
+Resolución (Estándar)
+1920 x 1200
+Superficie de la 
+pantalla
+Mate
+Luminosidad
+500 cd/m2
+ 
+DIMENSIONES & PESO
+Peso sin embalaje
+1,35 kg
+Altura
+31,28 cm
+Ancho
+1,55 cm
+Profundidad
+21,76 cm
+GENERAL
+Color
+Gris
+Trusted Platform 
+Module (TPM)
+Si
+ 
+CONEXIONES
+Conexión a red móvil
+No
+Ethernet
+No presente
+Porte VGA
+No
+Bluetooth
+Si
+Puerto Thunderbolt
+Si
+Puerto HDMI
+Si
+Otras conexiones
+WWAN Upgradable to 4G or 5G
+NO NFC   
+Standard Ports     
+1x USB-A (USB 5Gbps / USB 3.2 Gen 1) 
+1x USB-A (USB 5Gbps / USB 3.2 Gen 1), Always On 
+2x USB-C® (Thunderbolt™ 4 / USB4® 40Gbps), with USB 
+PD 3.0 and DisplayPort™ 2.1 
+1x HDMI® 2.1, up to 4K/60Hz 
+1x Headphone / microphone combo jack (3.5mm) 
+Optional Ports (configured)     
+1x Nano-SIM Card Slot 
+ 
+ 
+RAM
+RAM Instalada
+32 GB
+RAM Máxima
+32 GB
+Bancos RAM Libres
+0
+Velocidad de la 
+memoria de reloj
+6.400 MHz
+Tecnología de la RAM
+LPDDR5
+ 
+UNIDADES ÓPTICAS
+Tipología unidad 
+instalada
+N
+ 
+AUDIO
+Micrófono Integrado
+Si
+ 
+BATERÍA
+Número celdas
+3
+ 
+WEBCAM
+Webcam integrada
+Si
+ 
+SOLUCIONES
+Escuela Digital
+Genérico
+Pc Gaming
+No
+ 
+SISTEMA OPERATIVO & SOFTWARE
+Version S.O.
+Windows 11 
+Pro
+Software Incluido
+Windows® 11 Pro, Spanish 
+ 
+Opciones
+EXTENSIONES DE GARANTÍA
+Código Artículo
+Características principales
+Stock
+Llegadas
+Código: 5PS0K82841
+Modelo: 3Y International Upgrade
+Tipo: Extensión de garantía+accidentes Especificaciónes tipología: Sólo 
+unos modelos Nivel de servicio: estensione di garanzia standard Licencia 
+electrónica: No Duración: 36 months Cobertura (horas x días): 8 x 5
+100
+0
+Código: 5PS0K82841
+Modelo: 3Y International Upgrade
+Tipo: Extensión de garantía+accidentes Especificaciónes tipología: Sólo 
+unos modelos Nivel de servicio: estensione di garanzia standard Licencia 
+electrónica: No Duración: 36 months Cobertura (horas x días): 8 x 5
+100
+0
+Código: 5PS0K82838
+Modelo:
+100
+0
+Código: 5PS0K82838
+Modelo:
+100
+0
+Código: 5PS1G38104
+Modelo: 36 mesi Accidental Damage 
+Protection ONE
+Tipo: Extensión Especificaciónes tipología: Sólo unos modelos Nivel de 
+servicio: Protección contra daños accidentales Licencia electrónica: Sí 
+Duración: 36 months Cobertura (horas x días): 8 x 5
+100
+0
+
+Código Artículo
+Características principales
+Stock
+Llegadas
+Código: 5PS1G38104
+Modelo: 36 mesi Accidental Damage 
+Protection ONE
+Tipo: Extensión Especificaciónes tipología: Sólo unos modelos Nivel de 
+servicio: Protección contra daños accidentales Licencia electrónica: Sí 
+Duración: 36 months Cobertura (horas x días): 8 x 5
+100
+0
+Código: 5PS0K82818
+Modelo:
+100
+0
+Código: 5PS0K82818
+Modelo:
+100
+0
+Código: 5PS1G38092
+Modelo: 48 mesi Accidental Damage 
+Protection ONE
+Tipo: Extensión Especificaciónes tipología: Sólo unos modelos Nivel de 
+servicio: Protección contra daños accidentales Licencia electrónica: Sí 
+Duración: 48 months Cobertura (horas x días): 8 x 5
+100
+0
+Código: 5PS1G38092
+Modelo: 48 mesi Accidental Damage 
+Protection ONE
+Tipo: Extensión Especificaciónes tipología: Sólo unos modelos Nivel de 
+servicio: Protección contra daños accidentales Licencia electrónica: Sí 
+Duración: 48 months Cobertura (horas x días): 8 x 5
+100
+0
+Código: 5WS0F15923
+Modelo: 36 mesi Sealed Battery
+Tipo: Extensión Especificaciónes tipología: Sólo unos modelos Nivel de 
+servicio: Batería sellada Licencia electrónica: Sí Duración: 36 months 
+Cobertura (horas x días): 8 x 5
+100
+0
+Código: 5WS0F15923
+Modelo: 36 mesi Sealed Battery
+Tipo: Extensión Especificaciónes tipología: Sólo unos modelos Nivel de 
+servicio: Batería sellada Licencia electrónica: Sí Duración: 36 months 
+Cobertura (horas x días): 8 x 5
+100
+0
+Código: 5WS0F15922
+Modelo: 36 mesi Keep Your Drive
+Tipo: Extensión Especificaciónes tipología: Sólo unos modelos Nivel de 
+servicio: Mantén tu impulso Licencia electrónica: Sí Duración: 36 months 
+Cobertura (horas x días): 8 x 5
+100
+0
+Código: 5WS0F15922
+Modelo: 36 mesi Keep Your Drive
+Tipo: Extensión Especificaciónes tipología: Sólo unos modelos Nivel de 
+servicio: Mantén tu impulso Licencia electrónica: Sí Duración: 36 months 
+Cobertura (horas x días): 8 x 5
+100
+0
+Código: 5PS1D67026
+Modelo:
+100
+0
+Código: 5PS1D67026
+Modelo:
+100
+0
+Código: 5PS1G38085
+Modelo: 60 mesi Accidental Damage 
+Protection ONE
+Tipo: Extensión Especificaciónes tipología: Sólo unos modelos Nivel de 
+servicio: Protección contra daños accidentales Licencia electrónica: Sí 
+Duración: 60 months Cobertura (horas x días): 8 x 5
+100
+0
+Código: 5PS1G38085
+Modelo: 60 mesi Accidental Damage 
+Protection ONE
+Tipo: Extensión Especificaciónes tipología: Sólo unos modelos Nivel de 
+servicio: Protección contra daños accidentales Licencia electrónica: Sí 
+Duración: 60 months Cobertura (horas x días): 8 x 5
+100
+0
+Código: 5WS0K18169
+Modelo: 36 mesi Tech Install CRU
+Tipo: Extensión Especificaciónes tipología: Sólo unos modelos Nivel de 
+servicio: Tech Install CRU Licencia electrónica: Sí Duración: 36 months 
+Cobertura (horas x días): 8 x 5
+100
+0
+Código: 5WS0F17636
+Modelo: 4Y Keep Your Drive Add On
+Tipo: Extensión Especificaciónes tipología: Sólo unos modelos Nivel de 
+servicio: Llevar al fabricante Licencia electrónica: Sí Duración: 48 months 
+Cobertura (horas x días): 24 x 7
+100
+0
+Código: 5WS0K18169
+Modelo: 36 mesi Tech Install CRU
+Tipo: Extensión Especificaciónes tipología: Sólo unos modelos Nivel de 
+servicio: Tech Install CRU Licencia electrónica: Sí Duración: 36 months 
+Cobertura (horas x días): 8 x 5
+100
+0
+Código: 5WS0F17636
+Tipo: Extensión Especificaciónes tipología: Sólo unos modelos Nivel de 
+servicio: Llevar al fabricante Licencia electrónica: Sí Duración: 48 months 
+Cobertura (horas x días): 24 x 7
+100
+0
+
+Código Artículo
+Características principales
+Stock
+Llegadas
+Modelo: 4Y Keep Your Drive Add On
+Código: 5WS1M85438
+Modelo:
+100
+0
+Código: 5WS1M85438
+Modelo:
+100
+0
+Código: 5PS0K18170
+Modelo: 60 mesi Keep Your Drive
+Tipo: Extensión Especificaciónes tipología: Sólo unos modelos Nivel de 
+servicio: Mantén tu impulso Licencia electrónica: Sí Duración: 60 months 
+Cobertura (horas x días): 8 x 5
+100
+0
+Código: 5PS0K18170
+Modelo: 60 mesi Keep Your Drive
+Tipo: Extensión Especificaciónes tipología: Sólo unos modelos Nivel de 
+servicio: Mantén tu impulso Licencia electrónica: Sí Duración: 60 months 
+Cobertura (horas x días): 8 x 5
+100
+0
+Código: 5WS0K18163
+Modelo:
+100
+0
+Código: 5WS0K18163
+Modelo:
+100
+0
+Código: 5PS0F15928
+Modelo: 36 mesi Accidental Damage 
+Protection
+Tipo: Extensión Especificaciónes tipología: Sólo unos modelos Nivel de 
+servicio: Protección contra daños accidentales Licencia electrónica: Sí 
+Duración: 36 months Cobertura (horas x días): 8 x 5
+100
+0
+Código: 5PS0F15928
+Modelo: 36 mesi Accidental Damage 
+Protection
+Tipo: Extensión Especificaciónes tipología: Sólo unos modelos Nivel de 
+servicio: Protección contra daños accidentales Licencia electrónica: Sí 
+Duración: 36 months Cobertura (horas x días): 8 x 5
+100
+0
+Código: 5WS0K18172
+Modelo: 60 mesi Tech Install CRU
+Tipo: Extensión Especificaciónes tipología: Sólo unos modelos Nivel de 
+servicio: Tech Install CRU Licencia electrónica: Sí Duración: 60 months 
+Cobertura (horas x días): 8 x 5
+100
+0
+Código: 5WS0K18172
+Modelo: 60 mesi Tech Install CRU
+Tipo: Extensión Especificaciónes tipología: Sólo unos modelos Nivel de 
+servicio: Tech Install CRU Licencia electrónica: Sí Duración: 60 months 
+Cobertura (horas x días): 8 x 5
+100
+0
+Código: 5PS0F17633
+Modelo: 4Y Accidental Damage 
+Protection Add On
+Tipo: Extensión Especificaciónes tipología: Sólo unos modelos Nivel de 
+servicio: Llevar al fabricante Licencia electrónica: Sí Duración: 48 months 
+Cobertura (horas x días): 24 x 7
+100
+0
+Código: 5PS0F17633
+Modelo: 4Y Accidental Damage 
+Protection Add On
+Tipo: Extensión Especificaciónes tipología: Sólo unos modelos Nivel de 
+servicio: Llevar al fabricante Licencia electrónica: Sí Duración: 48 months 
+Cobertura (horas x días): 24 x 7
+100
+0
+Código: 5WS1L39253
+Modelo:
+100
+0
+Código: 5WS1L39253
+Modelo:
+100
+0
+Código: 5PS0K18166
+Modelo: 60 mesi Accidental Damage 
+Protection
+Tipo: Extensión Especificaciónes tipología: Sólo unos modelos Nivel de 
+servicio: Protección contra daños accidentales Licencia electrónica: Sí 
+Duración: 60 months Cobertura (horas x días): 8 x 5
+100
+0
+Código: 5PS0K18166
+Modelo: 60 mesi Accidental Damage 
+Tipo: Extensión Especificaciónes tipología: Sólo unos modelos Nivel de 
+servicio: Protección contra daños accidentales Licencia electrónica: Sí 
+Duración: 60 months Cobertura (horas x días): 8 x 5
+100
+0
+
+Código Artículo
+Características principales
+Stock
+Llegadas
+Protection
+Código: 5WS0W86716
+Modelo: 5WS0W86716
+Tipo: Extensión Especificaciónes tipología: Sólo unos modelos Nivel de 
+servicio: Premium Support Licencia electrónica: Sí Duración: 48 months 
+Cobertura (horas x días): 8 x 5
+100
+0
+Código: 5WS0W86716
+Modelo: 5WS0W86716
+Tipo: Extensión Especificaciónes tipología: Sólo unos modelos Nivel de 
+servicio: Premium Support Licencia electrónica: Sí Duración: 48 months 
+Cobertura (horas x días): 8 x 5
+100
+0
+Código: 5PS1D67023
+Modelo:
+100
+0
+Código: 5PS1D67023
+Modelo:
+100
+0
+Código: 5WS0W86745
+Modelo: 60 mesi Premier Support
+Tipo: Extensión Especificaciónes tipología: Sólo unos modelos Nivel de 
+servicio: Soporte Premier Licencia electrónica: Sí Duración: 60 months 
+Cobertura (horas x días): 8 x 5
+100
+0
+Código: 5WS0W86745
+Modelo: 60 mesi Premier Support
+Tipo: Extensión Especificaciónes tipología: Sólo unos modelos Nivel de 
+servicio: Soporte Premier Licencia electrónica: Sí Duración: 60 months 
+Cobertura (horas x días): 8 x 5
+100
+0
+Código: 5WS1L39208
+Modelo:
+100
+0
+Código: 5WS1L39208
+Modelo:
+100
+0
+Código: 5WS1M86992
+Modelo:
+100
+0
+Código: 5WS1M86992
+Modelo:
+100
+0
+Código: 5WS1M88236
+Modelo:
+100
+0
+Código: 5WS1M88236
+Modelo:
+100
+0
+Código: 5WS1L39099
+Modelo:
+100
+0
+Código: 5WS1L39099
+Modelo:
+100
+0
+No se proporciona ninguna garantía ni declaración en cuanto a la exactitud de esta información y se declina cualquier responsabilidad por errores tipográficos u 
+otros errores u omisiones en el tipo de contenido. Al proporcionar esta información, además, no se concede ninguna licencia sobre ningún copyright, patente o 
+cualquier otro derecho de propiedad intelectual. No puede modificar de ninguna manera los materiales de esta web, ni reproducir o mostrar públicamente, ni 
+distribuir o utilizar de otro modo para fines públicos o comerciales. En caso de violación de estos Términos, la autorización de uso será necesaria, destruyendo con 
+efecto inmediato eventuales materiales descargados o impresos.
+

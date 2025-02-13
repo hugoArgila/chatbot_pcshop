@@ -1,0 +1,360 @@
+ARTI SOFTWARE TEC. INF. S.L. 
+ANTONIO PEREZ 7 4º-4 
+28002 MADRID (28) 
+Tel: +34656359467 
+Fax:  
+e-mail: jaromero@artisoft.es
+Microsoft Surface Laptop 6 13.5 i7/32/1TB/Windows 11 Negro 
+Código: ZKB-00012
+2.528,75 €
+Microsoft Surface Laptop 6
+ 
+EL PORTÁTIL DEFINITIVO, DISEÑADO PARA EMPRESAS
+Rendimiento, potencia y diseño elegante. Diseñado para cargas de trabajo exigentes, Surface Laptop 6 da 
+rienda suelta a una nueva era de productividad a través de la potencia del procesador Intel® Core Ultra serie H. 
+Con Surface Laptop, los empleados obtienen los beneficios de un PC con IA que acelera las experiencias de 
+Microsoft Copilot. Disponible en tu elección de platino o negro y pantalla táctil antirreflejo de 13,5 o 15 
+pulgadas.
+ 
+Características:
+Equipado con procesador Intel ® Core™ Ultra 5 135H y procesador Intel ® Core™ Ultra 7 165H, NPU: Intel 
+® AI Boostcon.
+•
+Hasta 64 GB de RAM, 1 TB de capacidad en disco duro, puertos USB4 ®/Thunderbolt™ 4 y 1 x Smart Card 
+Reader para conectividad simplificada y transferencia de datos ultrarrápida.
+•
+Batería de larga duración de hasta 18,5 y 19 horas de uso típico del dispositivo, que se carga hasta en 
+un 80 % en menos de 60 minutos.
+•
+Pantalla táctil antirreflejo y cámara 1080p Surface Studio para llamadas de video y audio más claras 
+con dos micrófonos de estudio con foco de vozFootnote, altavoces OmnisonicFootnote con 
+DolbyFootnote AtmosFootnote 9, gracias a la nueva NPU.
+•
+Nueva tecla COPILOT, botón que facilita aún más el acceso a la potencia de la IA, permite interactuar a 
+través de escritura, función táctil y comandos de voz.
+•
+Disponible en modelos de 13,5 pulgadas con peso de 1,38 kg o 15 pulgadas con peso de 1,68 kg, con 
+cubierta de aluminio o anodizado y en color platino o negro.
+•
+Sometido a rigurosas pruebas de confiabilidad y durabilidad, cumpliendo con los estándares MIL-STD 
+810H.
+•
+Software de Windows 11, con aplicaciones de Microsoft 365 instaladas.
+•
+Contiene una alta seguridad, gracias a su Chip TPM 2.0 de hardware para seguridad empresarial y 
+reconocimiento facial de Windows Hello. 
+•
+Surface Laptop 6 para empresas está diseñado teniendo en cuenta la sostenibilidad, con más 
+materiales reciclados, más eficiente en términos de energía y más fácil de reparar.
+•
+Compatible con el kit adaptable de Surface y con accesorios adaptables de Microsoft.
+•
+ 
+Portátil de 13.5" ligero con pantalla táctil
+DISCO DURO
+Disco duro
+1.000 GB
+Tipo Soporte 1
+SSD
+Interfaz Soporte 1
+SSD
+Número Soportes
+1
+GRÁFICA
+Gráfica integrada
+Si
+Fabricante de la 
+gráfica
+Intel
+Modelo gráfica
+Intel Arc 
+Graphics
+Memoria de la gráfica
+0 mb
+PROCESADOR
+Familia Procesador
+Intel Core 
+Ultra 7
+Modelo de procesador
+165H
+Fabricante procesador
+Intel
+Frecuencia del 
+procesador
+1,7 GHz
+
+Frecuencia del 
+procesador turbo
+4,6 GHz
+ 
+PANTALLA
+Tamaño pantalla
+13,5 ''
+Pantalla táctil
+Si
+Tipo de pantalla
+TFT
+Resolución (Estándar)
+2256 x 1504
+Superficie de la 
+pantalla
+Brillo
+ 
+DIMENSIONES & PESO
+Peso sin embalaje
+1,38 kg
+Altura
+16,7 cm
+Ancho
+22,3 cm
+Profundidad
+1,67 cm
+GENERAL
+Color
+Negro
+Trusted Platform 
+Module (TPM)
+Si
+Material Chasis
+Aluminio
+Detección huella 
+dactilar
+No
+CONEXIONES
+Conexión a red móvil
+No
+N° total de puertos 
+USB
+3
+Puertos USB 2.0 High 
+Speed Type-A
+1
+Puertos USB 4 (40 
+Gbps) Type-C
+2
+Ethernet
+No presente
+Porte VGA
+No
+Bluetooth
+Si
+Bluetooth Versión
+5,3
+Puerto Thunderbolt
+Si
+Puerto HDMI
+No
+Conexión para 
+Dockstation del 
+fabricante
+Si
+Wireless (standard)
+Wifi 6E 
+(802.11ax)
+Otras conexiones
+1 x USB-C USB4/Thunderbolt4 con soporte para: Carga, 
+Transferencia de Archivos.
+1x USB-A 3.1
+DisplayPort 2.1 con soporte hasta 1 x 8K monitor
+1 x Surface Connect
+1 x Audio jack
+ 
+ 
+RAM
+RAM Instalada
+32 GB
+RAM Máxima
+32 GB
+Bancos RAM Libres
+0
+Velocidad de la 
+memoria de reloj
+4,27 MHz
+Tecnología de la RAM
+LPDDR5
+ 
+UNIDADES ÓPTICAS
+Tipología unidad 
+instalada
+N
+ 
+TECLADO Y SISTEMA PARA APUNTAR
+Teclado 
+retroiluminado
+Si
+ 
+AUDIO
+Micrófono Integrado
+Si
+ 
+BATERÍA
+Número celdas
+6
+Duración de la batería 
+hasta
+18,5 h
+ 
+WEBCAM
+Webcam integrada
+Si
+Resolución Webcam
+1920 x 1080
+Infrarrojos
+Si
+ 
+SOLUCIONES
+Escuela Digital
+Genérico
+Pc Gaming
+No
+ 
+SISTEMA OPERATIVO & SOFTWARE
+Version S.O.
+Windows 11 
+Pro
+ 
+Opciones
+ACCESORIOS ORDENADORES PORTÁTILES DOCKING STATION Y EXPANSION PARA PORTÁTILES
+Código Artículo
+Características principales
+Stock
+Llegadas
+Código: T8I-00004
+Modelo: Surface Thunderbolt 4
+Tipología específica: Docking station Funcionalidad: Adaptador para 
+Docking Color primario: negro Material: Plastica
+26
+0
+Código: T8I-00004
+Modelo: Surface Thunderbolt 4
+Tipología específica: Docking station Funcionalidad: Adaptador para 
+Docking Color primario: negro Material: Plastica
+26
+0
+ACCESORIOS ORDENADORES PORTÁTILES LÁPICES PARA PORTÁTILES
+Código Artículo
+Características principales
+Stock
+Llegadas
+Código: 8WX-00006
+Modelo: Surface Slim Pen 2
+Tipología específica: Boligrafo digital Funcionalidad: Escribir Universal: No 
+Color primario: negro Material: Aluminio
+0
+0
+
+Código Artículo
+Características principales
+Stock
+Llegadas
+Código: 8WX-00006
+Modelo: Surface Slim Pen 2
+Tipología específica: Boligrafo digital Funcionalidad: Escribir Universal: No 
+Color primario: negro Material: Aluminio
+0
+0
+ADAPTADORES
+Código Artículo
+Características principales
+Stock
+Llegadas
+Código: 1E4-00003
+Modelo: SURFACE USB-C TRAVEL 
+HUB
+Tipo conector externo: USB-C + VGA + USB Formato conector externo: 
+Hembra Tipo conector interno: VGA + USB-C Formato conector interno: 
+Ninguno Nº de Unidades por Paquete: 1 Color: Negro
+0
+2
+Código: 1E4-00003
+Modelo: SURFACE USB-C TRAVEL 
+HUB
+Tipo conector externo: USB-C + VGA + USB Formato conector externo: 
+Hembra Tipo conector interno: VGA + USB-C Formato conector interno: 
+Ninguno Nº de Unidades por Paquete: 1 Color: Negro
+0
+2
+EXTENSIONES DE GARANTÍA
+Código Artículo
+Características principales
+Stock
+Llegadas
+Código: 1VC-00058
+Modelo: Ampliación Garantía a 4 
+años Estándar Surface Laptop 
+6/Laptop Copilot + PC
+Tipo: Extensión Especificaciónes tipología: Sólo unos modelos Nivel de 
+servicio: estensione di garanzia standard Licencia electrónica: Sí Duración: 
+12 months Cobertura (horas x días): Na
+100
+0
+Código: 1VC-00058
+Modelo: Ampliación Garantía a 4 
+años Estándar Surface Laptop 
+6/Laptop Copilot + PC
+Tipo: Extensión Especificaciónes tipología: Sólo unos modelos Nivel de 
+servicio: estensione di garanzia standard Licencia electrónica: Sí Duración: 
+12 months Cobertura (horas x días): Na
+100
+0
+Código: NRW-00041
+Modelo: Ampliación Garantía a 4 
+años Plus Surface Laptop 6 / Laptop 
+Copilot + PC
+Tipo: Extensión Especificaciónes tipología: Sólo unos modelos Nivel de 
+servicio: Servicio in situ al siguiente día laborable - NBD Licencia 
+electrónica: Sí Duración: 12 months Cobertura (horas x días): Na
+100
+0
+Código: NRW-00041
+Modelo: Ampliación Garantía a 4 
+años Plus Surface Laptop 6 / Laptop 
+Copilot + PC
+Tipo: Extensión Especificaciónes tipología: Sólo unos modelos Nivel de 
+servicio: Servicio in situ al siguiente día laborable - NBD Licencia 
+electrónica: Sí Duración: 12 months Cobertura (horas x días): Na
+100
+0
+Código: MJ1-00444
+Modelo: Seguro Daños Accidentales 
+4 años Surface Laptop 6 / Laptop 
+Copilot + PC
+Tipo: ADP (Accidental Damage Protection) Especificaciónes tipología: Sólo 
+unos modelos Nivel de servicio: ADP Licencia electrónica: Sí Duración: 48 
+months Cobertura (horas x días): 8 x 5
+100
+0
+Código: MJ1-00444
+Modelo: Seguro Daños Accidentales 
+4 años Surface Laptop 6 / Laptop 
+Copilot + PC
+Tipo: ADP (Accidental Damage Protection) Especificaciónes tipología: Sólo 
+unos modelos Nivel de servicio: ADP Licencia electrónica: Sí Duración: 48 
+months Cobertura (horas x días): 8 x 5
+100
+0
+Código: NSI-00280
+Modelo: Seguro Daños Accidentales 
+PLUS 4 años Surface Laptop 6 / 
+Laptop Copilot + PC
+Tipo: ADP (Accidental Damage Protection) Especificaciónes tipología: Sólo 
+unos modelos Nivel de servicio: ADP Licencia electrónica: Sí Duración: 48 
+months Cobertura (horas x días): 8 x 5
+100
+0
+Código: NSI-00280
+Modelo: Seguro Daños Accidentales 
+PLUS 4 años Surface Laptop 6 / 
+Laptop Copilot + PC
+Tipo: ADP (Accidental Damage Protection) Especificaciónes tipología: Sólo 
+unos modelos Nivel de servicio: ADP Licencia electrónica: Sí Duración: 48 
+months Cobertura (horas x días): 8 x 5
+100
+0
+No se proporciona ninguna garantía ni declaración en cuanto a la exactitud de esta información y se declina cualquier responsabilidad por errores tipográficos u 
+otros errores u omisiones en el tipo de contenido. Al proporcionar esta información, además, no se concede ninguna licencia sobre ningún copyright, patente o 
+cualquier otro derecho de propiedad intelectual. No puede modificar de ninguna manera los materiales de esta web, ni reproducir o mostrar públicamente, ni 
+distribuir o utilizar de otro modo para fines públicos o comerciales. En caso de violación de estos Términos, la autorización de uso será necesaria, destruyendo con 
+
+efecto inmediato eventuales materiales descargados o impresos.
+
