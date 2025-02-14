@@ -92,9 +92,6 @@
         <p>&copy; 2025 Tienda de Ordenadores</p>
     </footer>
 
-    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
-
-    <!-- Aquí referenciamos el archivo JS -->
     <script src="{{ url_for('static', filename='js/app.js') }}"></script> <!-- Ruta ajustada -->
     
     <script>
@@ -103,36 +100,44 @@
                 const response = await axios.get('/productos');
                 const productos = response.data;
                 const catalogo = document.getElementById('catalogo');
-
+                const idsProcesados = new Set(); // Asegurarse de que no se repita el producto
+                
                 productos.forEach(producto => {
-                    const productoDiv = document.createElement('div');
-                    productoDiv.className = 'widget'; // Cambié la clase para mostrar el widget
-
-                    productoDiv.innerHTML = `
-                        <img src="${producto.imagen || 'default-image.jpg'}" alt="${producto.nombre}">
-                        <h3>${producto.nombre}</h3>
-                        <p>${producto.precio}€</p>
-                        <button class="boton" onclick="mostrarDetalles('${producto._id}')">Ver más</button>
-                        <div class="producto-info" id="info-${producto._id}" style="display: none;">
-                            <p><strong>Descripción:</strong> ${producto.descripcion}</p>
-                            <p><strong>Características:</strong> ${producto.caracteristicas ? producto.caracteristicas.join(', ') : ''}</p>
-                        </div>
-                    `;
-                    catalogo.appendChild(productoDiv);
+                    // Validamos que las propiedades necesarias del producto no sean undefined, null, o vacías
+                    if (producto.codigo && producto.nombre && producto.precio !== undefined && producto.precio !== null && producto.precio !== '' ) {
+                        if (!idsProcesados.has(producto.codigo)) {
+                            idsProcesados.add(producto.codigo);
+                            console.log(`Producto añadido: ${producto.codigo}`);  // Verifica que no haya productos duplicados
+                            
+                            // Crear un nuevo widget para cada producto
+                            const productoDiv = document.createElement('div');
+                            productoDiv.className = 'widget';
+                
+                            // Si el producto no tiene imagen, se asigna 'default-image.jpg'
+                            const imagenUrl = producto.imagen ? producto.imagen : "{{ url_for('static', filename='images/default-image.jpg') }}"; // Imagen predeterminada
+                            console.log(`URL de imagen: ${imagenUrl}`);  // Verifica la URL generada
+                
+                            productoDiv.innerHTML = `
+                                <img src="${imagenUrl}" alt="${producto.nombre}" style="width: 100%; height: auto; border-radius: 8px;">
+                                <h3>${producto.nombre}</h3>
+                                <p>${producto.precio}€</p>
+                                <a href="/detalles/${producto.codigo}" class="btn-detalles">Ver detalles</a>
+                            `;
+        
+                            catalogo.appendChild(productoDiv);
+                        } else {
+                            console.log(`Producto duplicado omitido: ${producto.codigo}`);
+                        }
+                    } else {
+                        console.log(`Producto con datos incompletos o undefined omitido: ${producto.codigo}`);
+                    }
                 });
             } catch (error) {
                 console.error('Error al cargar los productos:', error);
             }
         }
-
-        function mostrarDetalles(id) {
-            const infoDiv = document.getElementById(`info-${id}`);
-            if (infoDiv) {
-                infoDiv.style.display = infoDiv.style.display === 'none' ? 'block' : 'none';
-            }
-        }
-
-        window.onload = cargarProductos;
+        
+        window.onload = cargarProductos;  // Llamamos la función cuando la página se carga
     </script>
     
 </body>

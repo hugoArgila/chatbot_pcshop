@@ -3,6 +3,7 @@ from pymongo import MongoClient
 from dotenv import load_dotenv
 import os
 from flask_cors import CORS  # Importar flask-cors
+from bson import ObjectId
 
 # Cargar las variables del archivo .env
 load_dotenv()
@@ -127,6 +128,14 @@ def obtener_productos():
     except Exception as e:
         print("❌ Se produjo un error:", e)
         return jsonify({"error": str(e)}), 500  # Manejo de errores
+    
+@app.route('/productos/<codigo_producto>')
+def detalles_producto(codigo_producto):
+    producto = db['productos'].find_one({'codigo': codigo_producto})
+    if producto:
+        return jsonify(producto)  # Devuelve el producto como JSON
+    return jsonify({'error': 'Producto no encontrado'}), 404
+
 
 if __name__ == '__main__':
     print("🔥 Servidor Flask corriendo en http://127.0.0.1:5000/")
