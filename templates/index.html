@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tienda de Ordenadores</title>
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script> <!-- Incluir Axios -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script> 
     <style>
         /* Estilos generales */
         body {
@@ -19,10 +19,31 @@
             color: white;
             padding: 20px;
             text-align: center;
+            position: relative;
         }
 
         h1 {
             margin: 0;
+        }
+
+        /* Botón del Chatbot */
+        .chatbot-btn {
+            position: absolute;
+            top: 50%;
+            right: 20px;
+            transform: translateY(-50%);
+            padding: 10px 15px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .chatbot-btn:hover {
+            background-color: #0056b3;
         }
 
         main {
@@ -82,6 +103,7 @@
 <body>
     <header>
         <h1>Catálogo de Ordenadores</h1>
+        <a href="/chatbot" class="chatbot-btn">💬 Chatbot</a> 
     </header>
 
     <main>
@@ -92,7 +114,7 @@
         <p>&copy; 2025 Tienda de Ordenadores</p>
     </footer>
 
-    <script src="{{ url_for('static', filename='js/app.js') }}"></script> <!-- Ruta ajustada -->
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script> 
     
     <script>
         async function cargarProductos() {
@@ -100,23 +122,18 @@
                 const response = await axios.get('/productos');
                 const productos = response.data;
                 const catalogo = document.getElementById('catalogo');
-                const idsProcesados = new Set(); // Asegurarse de que no se repita el producto
+                const idsProcesados = new Set(); 
                 
                 productos.forEach(producto => {
-                    // Validamos que las propiedades necesarias del producto no sean undefined, null, o vacías
-                    if (producto.codigo && producto.nombre && producto.precio !== undefined && producto.precio !== null && producto.precio !== '' ) {
+                    if (producto.codigo && producto.nombre && producto.precio !== undefined) {
                         if (!idsProcesados.has(producto.codigo)) {
                             idsProcesados.add(producto.codigo);
-                            console.log(`Producto añadido: ${producto.codigo}`);  // Verifica que no haya productos duplicados
                             
-                            // Crear un nuevo widget para cada producto
                             const productoDiv = document.createElement('div');
                             productoDiv.className = 'widget';
                 
-                            // Si el producto no tiene imagen, se asigna 'default-image.jpg'
-                            const imagenUrl = producto.imagen ? producto.imagen : "{{ url_for('static', filename='images/default-image.jpg') }}"; // Imagen predeterminada
-                            console.log(`URL de imagen: ${imagenUrl}`);  // Verifica la URL generada
-                
+                            const imagenUrl = producto.imagen ? producto.imagen : "{{ url_for('static', filename='images/default-image.jpg') }}";
+
                             productoDiv.innerHTML = `
                                 <img src="${imagenUrl}" alt="${producto.nombre}" style="width: 100%; height: auto; border-radius: 8px;">
                                 <h3>${producto.nombre}</h3>
@@ -125,11 +142,7 @@
                             `;
         
                             catalogo.appendChild(productoDiv);
-                        } else {
-                            console.log(`Producto duplicado omitido: ${producto.codigo}`);
                         }
-                    } else {
-                        console.log(`Producto con datos incompletos o undefined omitido: ${producto.codigo}`);
                     }
                 });
             } catch (error) {
@@ -137,8 +150,7 @@
             }
         }
         
-        window.onload = cargarProductos;  // Llamamos la función cuando la página se carga
+        window.onload = cargarProductos;
     </script>
-    
 </body>
 </html>
