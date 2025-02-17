@@ -45,21 +45,28 @@
     <div class="detalle-container">
         <img id="producto-imagen" src="" alt="Imagen del producto">
         <h2 id="producto-nombre"></h2>
+        <p id="producto-codigo"></p>
         <p id="producto-precio"></p>
-        <p id="producto-descripcion"></p>
-        <p id="producto-caracteristicas"></p>
         <p id="producto-garantia"></p>
-        <p id="producto-procesador"></p>
+        <p id="producto-almacenamiento"></p>
         <p id="producto-bateria"></p>
-        <p id="producto-dimensiones"></p>
-        <button class="boton" onclick="window.history.back()">Volver</button>
+        <p id="producto-grafica"></p>
+        <p id="producto-procesador"></p>
+        <p id="producto-pantalla"></p>
+        <p id="producto-color"></p>
+        <p id="producto-conectividad"></p>
+        <p id="producto-ram"></p>
+        <p id="producto-extras"></p>
+        <p id="producto-sistema-operativo"></p>
+        <!-- El botón 'Volver' solo debe aparecer una vez, al final de la carga -->
+        <button class="boton" id="volver-boton" onclick="window.history.back()">Volver</button>
     </div>
+
     <script>
         async function cargarDetalles() {
             const path = window.location.pathname;
             const codigo = path.split('/').pop();  // Extrae el código desde la URL
         
-            // Log para verificar que el código se está extrayendo correctamente
             console.log("Código del producto: ", codigo);
         
             if (!codigo) {
@@ -68,25 +75,93 @@
             }
         
             try {
+                // Aquí estamos haciendo la solicitud a la API.
                 const response = await axios.get(`/productos/${codigo}`);
+                console.log(response)
+
                 const producto = response.data;
-                // Rellenar los detalles del producto en la página
-                document.getElementById('producto-imagen').src = producto.imagen || 'default-image.jpg';
-                document.getElementById('producto-nombre').innerText = producto.nombre;
-                document.getElementById('producto-precio').innerText = `Precio: ${producto.precio}€`;
-                document.getElementById('producto-descripcion').innerText = `Descripción: ${producto.descripcion || 'No disponible'}`;
-                document.getElementById('producto-caracteristicas').innerText = `Características: Almacenamiento: ${producto.almacenamiento ? producto.almacenamiento.capacidad : 'N/A'}`;
-                document.getElementById('producto-garantia').innerText = `Garantía: ${producto.garantia || 'No especificada'}`;
-                document.getElementById('producto-procesador').innerText = `Procesador: ${producto.procesador ? producto.procesador.modelo : 'Desconocido'}`;
-                document.getElementById('producto-bateria').innerText = `Batería: ${producto.bateria ? producto.bateria.duracion : 'No especificada'}`;
-                document.getElementById('producto-dimensiones').innerText = `Dimensiones: Peso: ${producto.dimensiones ? producto.dimensiones.peso : 'No disponible'}`;
+        
+                // Verifica si los datos están completos
+                if (!producto || Object.keys(producto).length === 0) {
+                    alert("No se encontraron detalles para este producto.");
+                    return;
+                }
+        
+                // Asignar los valores al HTML según la estructura del producto
+                document.getElementById('producto-nombre').innerText = producto.Nombre_producto || 'No disponible';
+                document.getElementById('producto-codigo').innerText = `Código: ${producto.Código_producto || 'No disponible'}`;
+                document.getElementById('producto-precio').innerText = `Precio: ${producto.Precio || 'No disponible'}`;
+                document.getElementById('producto-garantia').innerText = `Garantía: ${producto.Garantía || 'No especificada'}`;
+                
+                // Almacenamiento
+                if (producto.Almacenamiento) {
+                    document.getElementById('producto-almacenamiento').innerText = `Almacenamiento: ${producto.Almacenamiento.Capacidad_disco} (${producto.Almacenamiento.Tipo_disco}, ${producto.Almacenamiento.Interfaz_disco})`;
+                } else {
+                    document.getElementById('producto-almacenamiento').innerText = 'Almacenamiento no disponible';
+                }
+        
+                // Batería
+                if (producto.Batería) {
+                    document.getElementById('producto-bateria').innerText = `Batería: ${producto.Batería.Duración} (Celdas: ${producto.Batería.Número_celdas})`;
+                } else {
+                    document.getElementById('producto-bateria').innerText = 'Batería no disponible';
+                }
+        
+                // Gráfica
+                if (producto.Gráfica) {
+                    document.getElementById('producto-grafica').innerText = `Gráfica: ${producto.Gráfica.Modelo} (${producto.Gráfica.Fabricante}, ${producto.Gráfica.Memoria})`;
+                } else {
+                    document.getElementById('producto-grafica').innerText = 'Gráfica no disponible';
+                }
+        
+                // Procesador
+                if (producto.Procesador) {
+                    document.getElementById('producto-procesador').innerText = `Procesador: ${producto.Procesador.Modelo} (${producto.Procesador.Familia}, ${producto.Procesador.Frecuencia})`;
+                } else {
+                    document.getElementById('producto-procesador').innerText = 'Procesador no disponible';
+                }
+        
+                // Pantalla
+                if (producto.Pantalla) {
+                    document.getElementById('producto-pantalla').innerText = `Pantalla: ${producto.Pantalla.Tamaño} (${producto.Pantalla.Tipo}, Resolución: ${producto.Pantalla.Resolución})`;
+                } else {
+                    document.getElementById('producto-pantalla').innerText = 'Pantalla no disponible';
+                }
+        
+                // Color
+                document.getElementById('producto-color').innerText = `Color: ${producto.Color || 'No especificado'}`;
+        
+                // Conectividad
+                if (producto.Conectividad) {
+                    document.getElementById('producto-conectividad').innerText = `Conectividad: Red móvil: ${producto.Conectividad.Red_móvil}, Ethernet: ${producto.Conectividad.Ethernet}, VGA: ${producto.Conectividad.VGA}, Bluetooth: ${producto.Conectividad.Bluetooth}, Thunderbolt: ${producto.Conectividad.Thunderbolt}, HDMI: ${producto.Conectividad.HDMI}`;
+                } else {
+                    document.getElementById('producto-conectividad').innerText = 'Conectividad no disponible';
+                }
+        
+                // RAM
+                if (producto.RAM) {
+                    document.getElementById('producto-ram').innerText = `RAM: Instalada: ${producto.RAM.Instalada}, Máxima: ${producto.RAM.Máxima}, Libre: ${producto.RAM.Libre}, Velocidad: ${producto.RAM.Velocidad}, Tecnología: ${producto.RAM.Tecnología}`;
+                } else {
+                    document.getElementById('producto-ram').innerText = 'RAM no disponible';
+                }
+        
+                // Extras
+                if (producto.Extras) {
+                    document.getElementById('producto-extras').innerText = `Extras: Micrófono integrado: ${producto.Extras.Micrófono_integrado}, Webcam integrada: ${producto.Extras.Webcam_integrada}`;
+                } else {
+                    document.getElementById('producto-extras').innerText = 'Extras no disponibles';
+                }
+        
+                // Sistema operativo
+                document.getElementById('producto-sistema-operativo').innerText = `Sistema operativo: ${producto.Sistema_operativo || 'No especificado'}`;
+        
             } catch (error) {
                 console.error("Error al obtener detalles del producto:", error);
                 alert("No se pudo cargar la información del producto.");
             }
         }
         
-        window.addEventListener('load', cargarDetalles);
+        window.addEventListener('load', cargarDetalles);        
     </script>
 </body>
 </html>

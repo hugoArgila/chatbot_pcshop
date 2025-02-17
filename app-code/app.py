@@ -1,9 +1,9 @@
+import re
 from flask import Flask, jsonify, request, render_template
 from pymongo import MongoClient
 from dotenv import load_dotenv
 import os
 from flask_cors import CORS
-from bson import ObjectId
 import openai
 import requests
 
@@ -31,7 +31,7 @@ openai.api_version = os.getenv("AZURE_OPENAI_API_VERSION", "2023-03-15-preview")
 openai.api_key = os.getenv("AZURE_OPENAI_KEY")
 GPT40_MINI_DEPLOYMENT = os.getenv("AZURE_OPENAI_GPT40_MINI_DEPLOYMENT")  # Nombre del deployment para gpt-40-mini
 
-# --- Configuración para Azure Conversational Language ---
+# --- Configuración para Azure Conversational Language (si se usa) ---
 AZ_CONV_ENDPOINT = os.getenv("AZURE_CONVERSATIONAL_LANGUAGE_ENDPOINT")
 AZ_CONV_KEY = os.getenv("AZURE_CONVERSATIONAL_LANGUAGE_KEY")
 AZ_CONV_PROJECT = os.getenv("AZURE_CONVERSATIONAL_LANGUAGE_PROJECT")
@@ -129,161 +129,223 @@ def obtener_productos():
     except Exception as e:
         print("❌ Se produjo un error:", e)
         return jsonify({"error": str(e)}), 500
-
-@app.route('/productos/<codigo_producto>')
-def detalles_producto(codigo_producto):
-    producto = db['productos'].find_one({'codigo': codigo_producto})
-    if producto:
-        return jsonify(producto)
-    return jsonify({'error': 'Producto no encontrado'}), 404
-
+    
 @app.route('/chatbot', methods=['GET'])
 def chatbot():
     return render_template('chatbot.html')
 
+@app.route('/productos/<codigo>', methods=['GET'])
+def obtener_producto(codigo):
+    # Buscar el producto en la colección correspondiente de MongoDB
+    producto = None
+    for coleccion_nombre in db.list_collection_names():
+        coleccion = db[coleccion_nombre]
+        producto = coleccion.find_one({"Código_producto": codigo})
+        if producto:
+            break  # Si encontramos el producto, no necesitamos seguir buscando
+
+    if producto:
+        # Limpiar el campo '_id' antes de devolver la respuesta
+        producto['_id'] = str(producto['_id'])
+        return jsonify(producto)  # Respuesta en formato JSON
+    else:
+        return jsonify({"error": "Producto no encontrado"}), 404
+
+
+@app.route('/detalles/<codigo_producto>')
+def detalles_producto(codigo_producto):
+    producto = db['productos'].find_one({'codigo': codigo_producto})
+    if producto:
+        return render_template('detalles.html', producto=producto)
+    return render_template('detalles.html', error='Producto no encontrado')
+
+@app.route('/detalles/<codigo>', methods=['GET'])
+def get_producto_detalles(codigo_producto):
+    # Suponiendo que tienes una colección llamada 'productos' en tu base de datos MongoDB
+    producto = db.productos.find_one({'codigo_producto': codigo})
+    
+    if producto is None:
+        return jsonify({'error': 'Producto no encontrado'}), 404
+    
+    # Convertir el ObjectId de MongoDB a string para JSON
+    producto['_id'] = str(producto['_id'])
+    
+    # Devolver los detalles del producto en formato JSON
+    return jsonify(producto), 200
+
+
+# Ruta /chatbot combinada
 @app.route('/chatbot', methods=['POST'])
 def chatbot_query():
     data = request.get_json()
     message = data.get('message', '')
-    reply = ""
     m = message.lower()
 
-    # Buscar el producto "LG gram" en las colecciones
+    # --- PARTE 1: BÚSQUEDA GLOBAL CON FILTROS EXTRAÍDOS ---
+    # Mapeo de palabras clave a campos numéricos (atributos) de los productos.
+    # Agrega o modifica los atributos según tus necesidades.
+    attribute_mapping = {
+    # Atributos de RAM
+    "ram": ("RAM", "Instalada"),
+    "ram instalada": ("RAM", "Instalada"),
+    "ram máxima": ("RAM", "Máxima"),
+    "ram libre": ("RAM", "Libre"),
+    "velocidad ram": ("RAM", "Velocidad"),
+    
+    # Atributos de almacenamiento/disco
+    "almacenamiento": ("Almacenamiento", "Capacidad_disco"),
+    "disco": ("Almacenamiento", "Capacidad_disco"),
+    "capacidad disco": ("Almacenamiento", "Capacidad_disco"),
+    
+    # Atributos de precio (si se almacena numéricamente)
+    "precio": ("Precio", None),
+    
+    # Atributos de la batería
+    "numero celdas bateria": ("Batería", "Número_celdas"),
+    "celdas bateria": ("Batería", "Número_celdas"),
+    "duracion bateria": ("Batería", "Duración"),
+    
+    # Atributos de la gráfica (por ejemplo, memoria de la gráfica en GB)
+    "memoria grafica": ("Gráfica", "Memoria"),
+    
+    # Atributos del procesador
+    "frecuencia procesador": ("Procesador", "Frecuencia"),
+    
+    # Atributos de la pantalla
+    "tamano pantalla": ("Pantalla", "Tamaño"),
+    
+    # Atributos de las dimensiones
+    "peso": ("Dimensiones", "Peso"),
+    "altura": ("Dimensiones", "Altura"),
+    "ancho": ("Dimensiones", "Ancho"),
+    "profundidad": ("Dimensiones", "Profundidad")
+    }
+
+
+    # Extraer condiciones numéricas del mensaje.
+    # Se asume que los valores se expresan en GB (por ejemplo, "32 gb").
+    conditions = {}
+    for keyword, field_path in attribute_mapping.items():
+        if keyword in m:
+            match = re.search(r'(\d+)\s*gb', m)
+            if match:
+                conditions[keyword] = float(match.group(1))
+
+    # Si se extrajeron condiciones, realizamos la búsqueda global.
+    if conditions:
+        matching_products = []
+        for collection_name in db.list_collection_names():
+            collection = db[collection_name]
+            for product in collection.find():
+                cumple_todas = True  # Bandera: el producto debe cumplir todas las condiciones.
+                for keyword, required_value in conditions.items():
+                    field, subfield = attribute_mapping[keyword]
+                    attr_value_str = product.get(field, {}).get(subfield, "")
+                    try:
+                        attr_value = float(''.join(ch for ch in attr_value_str if ch.isdigit() or ch == '.'))
+                    except Exception as e:
+                        attr_value = 0
+                    if attr_value < required_value:
+                        cumple_todas = False
+                        break
+                if cumple_todas:
+                    product['_id'] = str(product['_id'])
+                    matching_products.append(product)
+        if matching_products:
+            return jsonify(matching_products), 200
+        else:
+            return jsonify({"reply": "No se encontraron productos que cumplan con las condiciones especificadas."}), 200
+
+    # --- PARTE 2: RESPUESTAS BASADAS EN INTENTS DEL PRODUCTO ---
+    # Si no se extrajeron condiciones, se busca un producto (cualquiera) para responder intents específicos.
     colecciones = db.list_collection_names()
     producto = None
     for coleccion_nombre in colecciones:
         coleccion = db[coleccion_nombre]
-        producto = coleccion.find_one({"Nombre_producto": {"$regex": "LG gram", "$options": "i"}})
+        # Se usa una regex que coincida con cualquier nombre (.*)
+        producto = coleccion.find_one({"Nombre_producto": {"$regex": ".*", "$options": "i"}})
         if producto:
             break
 
     if producto:
-        # --- Intents basados en el producto ---
-        if "precio" in m:
-            reply = f"El precio del {producto.get('Nombre_producto','producto')} es {producto.get('Precio','no especificado')}."
-        elif "código" in m or "codigo" in m:
-            reply = f"El código del producto es {producto.get('Código_producto', 'no especificado')}."
-        elif "garantía" in m or "garantia" in m:
-            reply = f"La garantía del producto es {producto.get('Garantía', 'no especificada')}."
-        elif "almacenamiento" in m and ("capacidad" in m or "gb" in m):
-            reply = f"La capacidad del disco es {producto.get('Almacenamiento', {}).get('Capacidad_disco', 'no especificada')}."
-        elif "almacenamiento" in m and "tipo" in m:
-            reply = f"El tipo de disco es {producto.get('Almacenamiento', {}).get('Tipo_disco', 'no especificado')}."
-        elif "almacenamiento" in m and "interfaz" in m:
-            reply = f"La interfaz del disco es {producto.get('Almacenamiento', {}).get('Interfaz_disco', 'no especificada')}."
-        elif ("batería" in m or "bateria" in m) and ("celdas" in m or "número" in m):
-            reply = f"La batería tiene {producto.get('Batería', {}).get('Número_celdas', 'no especificado')} celdas."
-        elif ("batería" in m or "bateria" in m) and ("duración" in m or "tiempo" in m):
-            reply = f"La batería dura {producto.get('Batería', {}).get('Duración', 'no especificada')}."
-        elif "gráfica" in m and ("fabricante" in m or "marca" in m):
-            reply = f"La gráfica es de {producto.get('Gráfica', {}).get('Fabricante', 'no especificado')}."
-        elif "gráfica" in m and ("modelo" in m or "tipo" in m):
-            reply = f"El modelo de la gráfica es {producto.get('Gráfica', {}).get('Modelo', 'no especificado')}."
-        elif "gráfica" in m and "memoria" in m:
-            reply = f"La gráfica tiene {producto.get('Gráfica', {}).get('Memoria', 'no especificada')} de memoria."
-        elif "procesador" in m and ("familia" in m or "serie" in m):
-            reply = f"La familia del procesador es {producto.get('Procesador', {}).get('Familia', 'no especificada')}."
-        elif "procesador" in m and ("modelo" in m or "tipo" in m):
-            reply = f"El modelo del procesador es {producto.get('Procesador', {}).get('Modelo', 'no especificado')}."
-        elif "procesador" in m and ("frecuencia" in m or "ghz" in m):
-            reply = f"La frecuencia del procesador es {producto.get('Procesador', {}).get('Frecuencia', 'no especificada')}."
-        elif "pantalla" in m and ("tamaño" in m or "pulgadas" in m):
-            reply = f"La pantalla tiene un tamaño de {producto.get('Pantalla', {}).get('Tamaño', 'no especificado')}."
-        elif "pantalla" in m and "resolución" in m:
-            reply = f"La resolución de la pantalla es {producto.get('Pantalla', {}).get('Resolución', 'no especificada')}."
-        elif "pantalla" in m and "tipo" in m:
-            reply = f"El tipo de pantalla es {producto.get('Pantalla', {}).get('Tipo', 'no especificado')}."
-        elif "pantalla" in m and ("táctil" in m or "tactil" in m):
-            tactil = producto.get('Pantalla', {}).get('Táctil', False)
-            reply = "La pantalla es táctil." if tactil else "La pantalla no es táctil."
-        elif "peso" in m:
-            reply = f"El peso del producto es {producto.get('Dimensiones', {}).get('Peso', 'no especificado')}."
-        elif "altura" in m:
-            reply = f"La altura del producto es {producto.get('Dimensiones', {}).get('Altura', 'no especificada')}."
-        elif "ancho" in m:
-            reply = f"El ancho del producto es {producto.get('Dimensiones', {}).get('Ancho', 'no especificado')}."
-        elif "profundidad" in m:
-            reply = f"La profundidad del producto es {producto.get('Dimensiones', {}).get('Profundidad', 'no especificada')}."
-        elif "color" in m:
-            reply = f"El color del producto es {producto.get('Color', 'no especificado')}."
-        elif ("red movil" in m or "red_movil" in m or ("red" in m and ("móvil" in m or "movil" in m))):
-            red_movil = producto.get('Conectividad', {}).get('Red_móvil', False)
-            reply = "El producto tiene conectividad móvil." if red_movil else "El producto no tiene conectividad móvil."
-        elif "ethernet" in m:
-            reply = f"La conectividad Ethernet es {producto.get('Conectividad', {}).get('Ethernet', 'no especificada')}."
-        elif "bluetooth" in m:
-            bluetooth = producto.get('Conectividad', {}).get('Bluetooth', False)
-            reply = "El producto tiene Bluetooth." if bluetooth else "El producto no tiene Bluetooth."
-        elif "thunderbolt" in m:
-            thunderbolt = producto.get('Conectividad', {}).get('Thunderbolt', False)
-            reply = "El producto tiene Thunderbolt." if thunderbolt else "El producto no tiene Thunderbolt."
-        elif "hdmi" in m:
-            hdmi = producto.get('Conectividad', {}).get('HDMI', False)
-            reply = "El producto tiene puerto HDMI." if hdmi else "El producto no tiene puerto HDMI."
-        elif "ram instalada" in m or ("ram" in m and "instalada" in m):
-            reply = f"La memoria RAM instalada es {producto.get('RAM', {}).get('Instalada', 'no especificada')}."
-        elif "ram máxima" in m or ("ram" in m and ("máxima" in m or "maxima" in m)):
-            reply = f"La memoria RAM máxima es {producto.get('RAM', {}).get('Máxima', 'no especificada')}."
-        elif "ram libre" in m or ("ram" in m and "libre" in m):
-            reply = f"La memoria RAM libre es {producto.get('RAM', {}).get('Libre', 'no especificada')}."
-        elif "ram velocidad" in m or ("ram" in m and "velocidad" in m):
-            reply = f"La velocidad de la RAM es {producto.get('RAM', {}).get('Velocidad', 'no especificada')}."
-        elif "ram tecnología" in m or ("ram" in m and "tecnología" in m):
-            reply = f"La tecnología de la RAM es {producto.get('RAM', {}).get('Tecnología', 'no especificada')}."
-        elif "micrófono" in m or "microfono" in m:
-            mic = producto.get('Extras', {}).get('Micrófono_integrado', False)
-            reply = "El producto tiene micrófono integrado." if mic else "El producto no tiene micrófono integrado."
-        elif "webcam" in m:
-            webcam = producto.get('Extras', {}).get('Webcam_integrada', False)
-            reply = "El producto tiene webcam integrada." if webcam else "El producto no tiene webcam integrada."
-        elif "gaming" in m:
-            gaming = producto.get('Extras', {}).get('Uso_gaming', False)
-            reply = "El producto está orientado al gaming." if gaming else "El producto no está orientado al gaming."
-        elif "sistema operativo" in m:
-            reply = f"El sistema operativo del producto es {producto.get('Sistema_operativo', 'no especificado')}."
-        # --- Fin de intents específicos ---
-        # Si no se detecta ningún intent relacionado con el producto...
-        elif any(term in m for term in ["hola", "buenos", "qué tal", "cómo estás"]):
-            # Usar Azure Conversational Language para preguntas conversacionales
-            url = AZ_CONV_ENDPOINT  # Suponemos que este endpoint ya incluye la ruta requerida
-            headers = {
-                "Ocp-Apim-Subscription-Key": AZ_CONV_KEY,
-                "Content-Type": "application/json"
-            }
-            payload = {
-                "query": message,
-                "projectName": AZ_CONV_PROJECT,
-                "deploymentName": AZ_CONV_DEPLOYMENT,
-                "api-version": AZ_CONV_API_VERSION
-            }
-            try:
-                conv_response = requests.post(url, headers=headers, json=payload)
-                if conv_response.status_code == 200:
-                    conv_data = conv_response.json()
-                    reply = conv_data.get("answer", "Lo siento, no tengo respuesta para eso.")
-                else:
-                    reply = "Error en el servicio de Conversational Language."
-            except Exception as e:
-                reply = "Error al conectar con el servicio de Conversational Language."
-                print("Error con Conversational Language:", e)
-        else:
-            # Para preguntas no relacionadas con Conversational Language, usar GPT-40-mini
-            try:
-                completion = openai.ChatCompletion.create(
-                    engine=GPT40_MINI_DEPLOYMENT,
-                    model="gpt-40-mini",
-                    messages=[
-                        {"role": "system", "content": "Eres un asistente que responde preguntas generales."},
-                        {"role": "user", "content": message}
-                    ]
-                )
-                reply = completion.choices[0].message.content
-            except Exception as e:
-                reply = "Error al generar respuesta con GPT-40-mini."
-                print("Error con GPT-40-mini:", e)
+        print("Tipo de 'producto':", type(producto))
     else:
-        reply = "No se encontró el producto LG gram en la base de datos."
-    
+        print("No se encontró ningún producto.")
+
+    producto_encontrado = False
+    reply_parts = []
+
+    if producto:
+        if "precio" in m:
+            reply_parts.append(
+                f"El precio del {producto.get('Nombre_producto', 'producto')} es {producto.get('Precio', 'no especificado')}."
+            )
+            producto_encontrado = True
+        if "código" in m or "codigo" in m:
+            reply_parts.append(
+                f"El código del producto es {producto.get('Código_producto', 'no especificado')}."
+            )
+            producto_encontrado = True
+        if "garantía" in m or "garantia" in m:
+            reply_parts.append(
+                f"La garantía del producto es {producto.get('Garantía', 'no especificada')}."
+            )
+            producto_encontrado = True
+        if "almacenamiento" in m:
+            if "capacidad" in m or "gb" in m:
+                reply_parts.append(
+                    f"La capacidad del disco es {producto.get('Almacenamiento', {}).get('Capacidad_disco', 'no especificada')}."
+                )
+                producto_encontrado = True
+            if "tipo" in m:
+                reply_parts.append(
+                    f"El tipo de disco es {producto.get('Almacenamiento', {}).get('Tipo_disco', 'no especificado')}."
+                )
+                producto_encontrado = True
+            if "interfaz" in m:
+                reply_parts.append(
+                    f"La interfaz del disco es {producto.get('Almacenamiento', {}).get('Interfaz_disco', 'no especificada')}."
+                )
+                producto_encontrado = True
+        if "batería" in m or "bateria" in m:
+            if "celdas" in m or "número" in m:
+                reply_parts.append(
+                    f"La batería tiene {producto.get('Batería', {}).get('Número_celdas', 'no especificado')} celdas."
+                )
+                producto_encontrado = True
+            if "duración" in m or "tiempo" in m:
+                reply_parts.append(
+                    f"La batería dura {producto.get('Batería', {}).get('Duración', 'no especificada')}."
+                )
+                producto_encontrado = True
+        if "color" in m:
+            reply_parts.append(
+                f"El color del producto es {producto.get('Color', 'no especificado')}."
+            )
+            producto_encontrado = True
+        if "sistema operativo" in m:
+            reply_parts.append(
+                f"El sistema operativo del producto es {producto.get('Sistema_operativo', 'no especificado')}."
+            )
+            producto_encontrado = True
+
+    if producto_encontrado:
+        reply = " ".join(reply_parts)
+    else:
+        # Fallback: usar GPT-40-mini para responder la consulta de forma general.
+        try:
+            completion = openai.ChatCompletion.create(
+                engine=GPT40_MINI_DEPLOYMENT,
+                messages=[
+                    {"role": "system", "content": "Eres un asistente que responde preguntas generales."},
+                    {"role": "user", "content": message}
+                ]
+            )
+            reply = completion.choices[0].message.content
+        except Exception as e:
+            reply = "Error al generar respuesta con GPT-40-mini."
+            print("Error con GPT-40-mini:", e)
+
     return jsonify({"reply": reply})
 
 if __name__ == '__main__':

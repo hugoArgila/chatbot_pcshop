@@ -114,11 +114,32 @@
             // Mostrar el mensaje del usuario en el chat
             displayMessage(messageText, 'user');
             inputField.value = '';
-
+    
             try {
-                // Aquí se realiza la llamada a la API del chatbot
-                const response = await axios.post('/chatbot', { message: messageText });
-                const botMessage = response.data.reply || "No entendí tu pregunta.";
+                let botMessage = "";
+    
+                // Verifica si el usuario está preguntando por productos o códigos de productos
+                if (messageText.toLowerCase().includes("producto") || messageText.toLowerCase().includes("código producto")) {
+                    // Hacer una solicitud a la ruta /productos para obtener los productos
+                    const response = await axios.get('/productos');
+                    const productos = response.data;
+    
+                    // Si hay productos, construimos un mensaje para mostrar
+                    if (productos && productos.length > 0) {
+                        botMessage = "Aquí tienes algunos productos disponibles:\n";
+                        productos.forEach(producto => {
+                            // Mostrar el código del producto y algún detalle relevante
+                            botMessage += `- Código: ${producto.codigo_producto}, Nombre: ${producto.nombre || 'No disponible'}\n`;
+                        });
+                    } else {
+                        botMessage = "No hay productos disponibles en este momento.";
+                    }
+                } else {
+                    // Si no se menciona un producto, hacer la solicitud al chatbot
+                    const response = await axios.post('/chatbot', { message: messageText });
+                    botMessage = response.data.reply || "No entendí tu pregunta.";
+                }
+    
                 // Mostrar la respuesta del chatbot
                 displayMessage(botMessage, 'bot');
             } catch (error) {
